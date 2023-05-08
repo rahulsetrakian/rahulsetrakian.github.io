@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>About | Rahul Setrakian</title>
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 	<link rel="icon" type="image/png" href="favicon.ico">
-</head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all" />
+	
+	</head>
 <body>
-
-
 <header class="site-header">
   <nav class="site-nav">
+    
     <a class="logo" href="">
-      Rahul Setrakian
+      <img src="/assets/img/logo.png" alt="logo" class="logo-img">
     </a>
+
     <ul class="main-menu">
       
       <li>
-        <a href="/">Home</a>
+        <a class="decoder" href="/" data-value="Home">Home</a>
       </li>
+
       
       <li>
-        <a href="/about">About</a>
+        <a class="decoder" href="/about" data-value="About">About</a>
       </li>
+
       
       <li>
-        <a href="/portfolio">Portfolio</a>
+        <a class="decoder" href="/portfolio" data-value="Portfolio">Portfolio</a>
       </li>
+
       
       <li>
-        <a href="/blog">Blog</a>
+        <a class="decoder" href="/blog" data-value="Blog">Blog</a>
       </li>
+
       
       <li>
-        <a href="/contact">Contact</a>
+        <a class="decoder" href="/contact" data-value="Contact">Contact</a>
       </li>
+
       
     </ul>
+
+
+
+
+
   </nav>
 </header>
-
-
 
 <main class="content">
 
@@ -53,11 +65,11 @@
 
 
 </main>
-	
+
+<script src="/assets/js/main.js"></script>
 <footer>
 	<p>&copy;2023 Rahul Setrakian</p>
 </footer>
-
 </body>
 </html>
 
