@@ -43,6 +43,23 @@ for (const decoder of decoders) {
   intervals.push(interval);
 }
 
+// SCROLL
+
+
+window.addEventListener('scroll', function() {
+   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+   var scrollIcon = document.querySelector('.scroll-icon');
+   
+   if (scrollPosition > 0) {
+     scrollIcon.style.display = 'flex';
+   } else {
+     scrollIcon.style.display = 'none';
+   }
+ });
+ 
+
+
+
 
 
 
