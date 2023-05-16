@@ -56,6 +56,22 @@
 .main{
 	height: 100vh;
 }
+
+@media (max-width: 768px) {
+	.main {
+		height: auto;
+	}
+  }
+  
+  /* Styles for screens between 769px and 1024px */
+  @media (min-width: 769px) and (max-width: 1024px) {
+	.main {
+		height: auto;
+	}
+  }
+  
+
+
  a, button {
 	 cursor: pointer;
 	 border: none;
@@ -254,6 +270,11 @@
 	 box-shadow: var(--shadow-medium);
 	 transition: all 0.3s ease-in-out;
 }
+.menu-block:hover {
+	background-color: var(--color-blue-700);
+}
+
+
 .menu-item {
 	text-transform: uppercase;
 }
@@ -444,6 +465,90 @@
 }
 
 
+
+.scroll-indicator {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	width: 30px;
+	height: 30px;
+	animation: scrollIndicator 1s infinite alternate;
+  }
+  
+  .scroll-indicator::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+  }
+  
+  @keyframes scrollIndicator {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateX(-50%) translateY(5px);
+	}
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 
@@ -481,4 +586,9 @@ footer p{
 	font-size: 24px;
   }
   
+@media (max-width: 768px) {
+	.scroll-indicator {
+	  bottom: 10px;
+	}
+  }
  
