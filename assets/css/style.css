@@ -215,6 +215,7 @@
 	 justify-content: center;
 	 align-items: center;
 	 row-gap: 1.25rem;
+	 
 }
  .menu-link {
 	 font-family: inherit;
@@ -242,6 +243,9 @@
 	 background-color: var(--color-blue-600);
 	 box-shadow: var(--shadow-medium);
 	 transition: all 0.3s ease-in-out;
+}
+.menu-item {
+	text-transform: uppercase;
 }
  @media only screen and (min-width: 48rem) {
 	 .menu {
