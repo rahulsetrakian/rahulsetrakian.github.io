@@ -13,14 +13,33 @@
 } 
 }
 
-
-
-
-
-
-
-
-
+.fade {
+	opacity: 0;
+	transform: translateY(50px); /* Initial position below the viewport */
+	transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .fade.visible {
+	opacity: 1;
+	transform: translateY(0); /* Move the element to its original position */
+  }
+  
+/* HTML element you want to apply the fade-in animation to */
+.fade-in {
+	opacity: 0; /* Set initial opacity to 0 */
+	animation: fade 1s ease-in forwards; /* Apply the fade animation */
+  }
+  
+  /* Keyframes for the fade animation */
+  @keyframes fade {
+	from {
+	  opacity: 0; /* Start with opacity 0 */
+	}
+	to {
+	  opacity: 1; /* End with opacity 1 */
+	}
+  }
+  
 
 
 
@@ -647,18 +666,6 @@
 
 
 
-/* FOOTER */
-
-
-
-footer p{
-	margin-bottom: 2rem;
-}
-
-
-
-
-
 
 
 
@@ -754,5 +761,53 @@ footer p{
 
 
 
-  /* ABOUTME SECTION */        
-  
+
+
+
+
+
+
+  /* ABOUT ME SECTION */
+
+@media(min-width: 768px) {
+	.about p {
+		padding: 0 100px;
+	}
+}
+.about p {
+	text-align: justify;
+}
+
+.slash {
+	color: var(--color-blue-600);
+  }
+
+
+   .first-style-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer p{
+	margin-bottom: 2rem;
+}
