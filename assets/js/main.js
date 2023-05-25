@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 // FADE ANIMATION
 function fadeInOnScroll() {
    const elements = document.querySelectorAll('.fade');
@@ -14,7 +24,14 @@ function fadeInOnScroll() {
  
  document.addEventListener('DOMContentLoaded', fadeInOnScroll);
  window.addEventListener('scroll', fadeInOnScroll);
- 
+
+
+
+
+
+
+
+
 
 
 

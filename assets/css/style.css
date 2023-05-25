@@ -116,7 +116,8 @@
 	 --clr-3: #ffc640;
 	 --clr-4: #e54cff; 
 	 --blur: 1rem;
-	 --fs: clamp(3rem, 8vw, 7rem);
+	 --fs: clamp(8rem, 8vw, 7rem);
+	 --fr: clamp(4rem, 8vw, 7rem);
 	 --ls: clamp(-1.75px, -0.25vw, -3.5px);
 }
  *, *::before, *::after {
@@ -831,14 +832,17 @@
 
 
 /* 404 PAGE */
- .pagenotfound {
-   min-height:100vh;
-   display: grid;
-   place-items: center;
-   color: #fff;
-   font-family: "Inter", "DM Sans", Arial, sans-serif;
-   text-align: center;
- }
+.pagenotfound {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	color: #fff;
+	font-family: "Inter", "DM Sans", Arial, sans-serif;
+	text-align: center;
+  }
+  
+
+
  
  .title {
    font-size: var(--fs);
@@ -848,7 +852,20 @@
    overflow: hidden;
    margin: 0;
  }
- 
+ @media (max-width: 769px){
+	.title {
+		font-size: var(--fr);
+	}
+ }
+
+ @media(max-width: 1024px){
+	.title {
+		font-size: var(--fr);
+	}
+
+ }
+
+
  .aurora {
    position: absolute;
    top: 0;
@@ -1091,14 +1108,6 @@
 /* FOOTER */
 
 
-
-
-
-
-
-
-
-
 .footer {
 	background-color: #080a0c;
 	padding: 20px;
@@ -1125,6 +1134,7 @@
   .center{
 	flex-grow: 1;
 	text-align: center;
+	margin-top: 40px;
   }
   .rightside {
 	text-align: right;
@@ -1138,7 +1148,8 @@
   }
   .social-icon a {
 	color: var(--color-white-100);
-	margin-left: 16px;
+	margin-left: 6px;
+	font-size: 24px;
   }
 
   .social-icon > *:hover {
