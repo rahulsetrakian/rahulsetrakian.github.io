@@ -1,3 +1,85 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+
+
+:root {
+	--color-white-100: #fff;
+	--color-white-200: #e4e6e7;
+	--color-white-300: #c9cccf;
+	--color-white-400: #a1a6aa;
+	--color-white-500: #798086;
+	--color-black-100: #14191f;
+	--color-black-200: #101419;
+	--color-black-300: #0c0f13;
+	--color-black-400: #0c0f13;
+	--color-black-500: #080a0c;
+	--color-black-600: #060709;
+	--color-black-700: #040506;
+	--color-black-800: #020303;
+	--color-blue-100: #dcebfe;
+	--color-blue-200: #bedbfe;
+	--color-blue-300: #91c3fd;
+	--color-blue-400: #61a6fa;
+	--color-blue-500: #3c83f6;
+	--color-blue-600: #2463eb;
+	--color-blue-700: #1d4fd7;
+	--color-blue-800: #1e3fae;
+	--color-blue-900: #1e3b8a;
+	--shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	--shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	--bg: #000000;
+	--clr-1: #00c2ff;
+	--clr-2: #33ff8c;
+	--clr-3: #ffc640;
+	--clr-4: #e54cff; 
+	--blur: 1rem;
+	--fs: clamp(8rem, 8vw, 7rem);
+	--fr: clamp(4rem, 8vw, 7rem);
+	--ls: clamp(-1.75px, -0.25vw, -3.5px);
+	--gutter: clamp(1ch, 2.5vmax, 3ch);
+	--stack: clamp(1.25ex, 2.5vmax, 1.75ex);
+	--line-length: 70ch;
+	--page-padding-inline: calc((100vw - min(90rem, 100vw - var(--gutter) * 3)) / 2);
+	--section-spacing: clamp(var(--stack) * 4, 10vmax, var(--stack) * 6);
+}
+
+*, *::before, *::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	list-style-type: none;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* COMPONENTS */
 .grad-text {
 	animation: move 4s linear infinite;
@@ -83,54 +165,8 @@
 
 
 /* NAVIGATION */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
-:root {
-	 --color-white-100: #fff;
-	 --color-white-200: #e4e6e7;
-	 --color-white-300: #c9cccf;
-	 --color-white-400: #a1a6aa;
-	 --color-white-500: #798086;
-	 --color-black-100: #14191f;
-	 --color-black-200: #101419;
-	 --color-black-300: #0c0f13;
-	 --color-black-400: #0c0f13;
-	 --color-black-500: #080a0c;
-	 --color-black-600: #060709;
-	 --color-black-700: #040506;
-	 --color-black-800: #020303;
-	 --color-blue-100: #dcebfe;
-	 --color-blue-200: #bedbfe;
-	 --color-blue-300: #91c3fd;
-	 --color-blue-400: #61a6fa;
-	 --color-blue-500: #3c83f6;
-	 --color-blue-600: #2463eb;
-	 --color-blue-700: #1d4fd7;
-	 --color-blue-800: #1e3fae;
-	 --color-blue-900: #1e3b8a;
-	 --shadow-small: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-	 --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-	 --shadow-large: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-	 --bg: #000000;
-	 --clr-1: #00c2ff;
-	 --clr-2: #33ff8c;
-	 --clr-3: #ffc640;
-	 --clr-4: #e54cff; 
-	 --blur: 1rem;
-	 --fs: clamp(8rem, 8vw, 7rem);
-	 --fr: clamp(4rem, 8vw, 7rem);
-	 --ls: clamp(-1.75px, -0.25vw, -3.5px);
-}
- *, *::before, *::after {
-	 padding: 0;
-	 margin: 0;
-	 box-sizing: border-box;
-	 list-style: none;
-	 list-style-type: none;
-	 text-decoration: none;
-	 -webkit-font-smoothing: antialiased;
-	 -moz-osx-font-smoothing: grayscale;
-	 text-rendering: optimizeLegibility;
-}
+
+
  html {
 	 font-size: 100%;
 	 box-sizing: inherit;
@@ -194,8 +230,24 @@
 	 max-width: 75rem;
 	 height: auto;
 	 margin: 0 auto;
-	 padding: 0 1.25rem;
+	 padding: 0;
 }
+@media (max-width: 769px){
+	.container{
+		padding: 0 1rem;
+	}
+}
+@media (max-width: 1248px){
+	.container{
+		padding: 0 1.25rem;
+	}
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+}
+
  .centered {
 	 text-align: center;
 	 vertical-align: middle;
@@ -587,10 +639,6 @@
 .content {
 	margin-bottom: 4rem;
   }
-.content p {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 
 
 
@@ -649,11 +697,6 @@
 
 
 
-
-
-
-
-/* HEADER PAGE */
 
 
 
@@ -780,37 +823,103 @@
 
 
   /* ABOUT ME SECTION */
+.aboutme {
+	display: flex;
+	flex-direction: column; /* stack items vertically */
+	align-items: flex-start; /* align items to the left */
+	justify-content: center; /* vertically center the content */
+	height: 100vh; /* set the height to 100% of the viewport height */
+	padding-left: 20px; /* add left padding for spacing */
+  }
+  
+  .h1 {
+	margin-bottom: 10px; /* add bottom margin for spacing */
+  }
 
 
-@media(min-width: 768px) {
-	.about p {
-		padding: 0 100px;
-	}
+.aboutme .h1 {
+	font-size: 12em;
+	background-image: url("https://cdn.leonardo.ai/users/a78c3080-9c33-4198-aff2-de1c9916fa4e/generations/224ddcc6-f2cf-4ce4-9268-e7c22399554d/Leonardo_Diffusion_abstract_dissolved_gradient_3.jpg");
+	color: #fff;
+	color: transparent;
+	background-size: contain;
+	-webkit-background-clip: text;
+	filter: drop-shadow(0px -3px 1px rgba(0, 0, 0, 1));
+	animation: stripes 5s infinite alternate;
 }
+@keyframes stripes {
+	100% {
+		background-position: 100px 0, 100px 0, 100px 0;
+   }
+}
+
 @media(max-width: 1024px) {
 	.about {
 		margin-top: 4rem;
 	}
+	.aboutme .h1 {
+		font-size: 8em;
+	}
 }
-.about p {
-	text-align: justify;
+@media(max-width: 768px) {
+	.about p {
+		padding: 0 100px;
+	}
+	.aboutme .h1 {
+		font-size: 4em;
+	}
 }
 
-.slash {
-	color: var(--color-blue-600);
-  }
 
 
-   .first-style-sec {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80vh;
-    }
 
-    .about {
-        text-align: center;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1081,6 +1190,38 @@
 
 
 
+ 
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+.fortpolio-container {
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1110,7 +1251,6 @@
 
 .footer {
 	background-color: #080a0c;
-	padding: 20px;
 	margin-bottom:20px ;
   }
   
@@ -1154,4 +1294,10 @@
 
   .social-icon > *:hover {
 	color: #b3b3b3; /* Update with the desired hover color */
+}
+
+@media (max-width: 769px) and (max-width: 1024px){
+	.rightside h2{
+		margin-top: 18px;
+	}
 }
