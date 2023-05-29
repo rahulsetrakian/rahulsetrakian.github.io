@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
 
-
+/* COMPONENTS */
 :root {
 	--color-white-100: #fff;
 	--color-white-200: #e4e6e7;
@@ -58,29 +58,18 @@
 }
 
 
+.title-xl {
+	font-family: inherit;
+	font-size: clamp(2.648rem, 6vw, 4.241rem);
+	font-weight: 700;
+	line-height: 1.15;
+	letter-spacing: -1px;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* COMPONENTS */
 .grad-text {
 	animation: move 4s linear infinite;
 	background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
@@ -171,14 +160,12 @@
 	 font-size: 100%;
 	 box-sizing: inherit;
 	 scroll-behavior: smooth;
-	 height: -webkit-fill-available;
 }
  body {
 	 font-family: "Rubik", sans-serif;
 	 font-size: clamp(1rem, 2vw, 1.125rem);
 	 font-weight: 400;
 	 line-height: 1.5;
-	 height: -webkit-fill-available;
 	 color: var(--color-white-100);
 	 background-color: var(--color-black-500);
 }
@@ -828,18 +815,30 @@
 	flex-direction: column; /* stack items vertically */
 	align-items: flex-start; /* align items to the left */
 	justify-content: center; /* vertically center the content */
-	height: 100vh; /* set the height to 100% of the viewport height */
-	padding-left: 20px; /* add left padding for spacing */
+	height: 90vh; /* set the height to 100% of the viewport height */
   }
   
   .h1 {
 	margin-bottom: 10px; /* add bottom margin for spacing */
   }
 
+  .margintop{
+	margin-top: 40px;
+  }
 
 .aboutme .h1 {
 	font-size: 12em;
-	background-image: url("https://cdn.leonardo.ai/users/a78c3080-9c33-4198-aff2-de1c9916fa4e/generations/224ddcc6-f2cf-4ce4-9268-e7c22399554d/Leonardo_Diffusion_abstract_dissolved_gradient_3.jpg");
+	background-image: url("/assets/img/texture.jpeg");
+	color: #fff;
+	color: transparent;
+	background-size: contain;
+	-webkit-background-clip: text;
+	filter: drop-shadow(0px -3px 1px rgba(0, 0, 0, 1));
+	animation: stripes 5s infinite alternate;
+}
+.h2{
+	font-size: 12em;
+	background-image: url("/assets/img/texture.jpeg");
 	color: #fff;
 	color: transparent;
 	background-size: contain;
@@ -853,6 +852,99 @@
    }
 }
 
+:root {  
+	--purple: rgb(123, 31, 162);
+	--violet: rgb(103, 58, 183);
+	--pink: rgb(244, 143, 177);
+  }
+  
+  
+  .magictext {
+	color: white;
+	font-family: "Rubik", sans-serif;
+	margin: 0px;
+  }
+  
+  .magictext > .magic {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .magictext > .magic > .magic-star {
+	--size: clamp(20px, 1.5vw, 30px);
+	
+	animation: scale 700ms ease forwards;
+	display: block;
+	height: var(--size);
+	left: var(--star-left);
+	position: absolute;
+	top: var(--star-top);
+	width: var(--size);
+  }
+  
+  .magictext > .magic > .magic-star > svg {
+	animation: rotate 1000ms linear infinite;
+	display: block;
+	opacity: 0.7;
+  }
+  
+  .magictext > .magic > .magic-star > svg > path {
+	fill: var(--violet);
+  }
+  
+  .magictext > .magic > .magic-text {
+	animation: background-pan 3s linear infinite;
+	background: linear-gradient(
+	  to right,
+	  var(--purple),
+	  var(--violet),
+	  var(--pink),
+	  var(--purple)
+	);
+	background-size: 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	white-space: nowrap;
+  }
+  
+
+  @keyframes background-pan {
+	from {
+	  background-position: 0% center;
+	}
+	
+	to {
+	  background-position: -200% center;
+	}
+  }
+  
+  @keyframes scale {
+	from, to {
+	  transform: scale(0);
+	}
+	
+	50% {
+	  transform: scale(1);
+	}
+  }
+  
+  @keyframes rotate {
+	from {
+	  transform: rotate(0deg);
+	}
+	
+	to {
+	  transform: rotate(180deg);
+	}
+  }
+  
+
+
+
+
+
+
+
 @media(max-width: 1024px) {
 	.about {
 		margin-top: 4rem;
@@ -860,15 +952,33 @@
 	.aboutme .h1 {
 		font-size: 8em;
 	}
+	 .h2 {
+		font-size: 8em;
+	}
 }
 @media(max-width: 768px) {
+	.magictext {
+		text-align: justify;
+	}
 	.about p {
 		padding: 0 100px;
 	}
 	.aboutme .h1 {
+		font-size: 6em;
+	}
+	.h2 {
+		font-size: 6em;
+	}
+}
+@media(max-width: 472px) {
+	.aboutme .h1 {
+		font-size: 4em;
+	}
+	.h2 {
 		font-size: 4em;
 	}
 }
+
 
 
 
@@ -950,9 +1060,6 @@
 	text-align: center;
   }
   
-
-
- 
  .title {
    font-size: var(--fs);
    font-weight: 800;
@@ -1200,15 +1307,44 @@
 
 
 /* PORTFOLIO */
-.fortpolio-container {
-	height: 100vh;
-}
+.portfolio-container {
+	display: flex;
+	flex-direction: column; /* stack items vertically */
+	align-items: flex-start; /* align items to the left */
+	justify-content: left; /* vertically center the content */
+	margin-top: 20%;
+  }
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
