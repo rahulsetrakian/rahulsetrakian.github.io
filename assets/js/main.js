@@ -1,10 +1,46 @@
+// ABOUT PAGE
+var paragraphs = document.getElementsByClassName('fall-in');
+var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+function checkVisibility() {
+  for (var i = 0; i < paragraphs.length; i++) {
+    var paragraph = paragraphs[i];
+    if (isElementInViewport(paragraph)) {
+      if (!paragraph.classList.contains('visible')) {
+        paragraph.classList.add('visible');
+      }
+    } else {
+      if (paragraph.classList.contains('visible')) {
+        paragraph.classList.remove('visible');
+      }
+    }
+  }
+}
+
+function isElementInViewport(element) {
+  var rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.bottom <= windowHeight
+  );
+}
+
+// Initial check on page load
+checkVisibility();
+
+// Check visibility on scroll
+window.addEventListener('scroll', checkVisibility);
 
 
 
-// PORTFOLIO
 
 
 
+
+
+
+
+// TEST CODE
 
 
 

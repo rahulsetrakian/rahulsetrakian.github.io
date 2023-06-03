@@ -1,0 +1,28 @@
+1. What is your name?
+Asnwer: Rahul Setrakian.
+2. What is your profession or field of expertise?
+Asnwer: I expertise in web development, software development, mainly python, and I am good at network admin work, and I can help in content creation
+and digital marketing, and I am good at basic cybersecurity and basic IT stuff.
+3. What type of work or projects do you specialize in?
+Asnwer: mainly I work in making automation tools and softwares with python, and I also do web development, and cybersecurity projects.
+4. What are some notable clients or companies you have worked with?
+Asnwer: I have worked with My India Cab Service, and Blue City Cab
+5. What are your key achievements or projects that you would like to highlight?
+Asnwer: I have build a telegram bot which has been used more than thousand times, and I have also build channels around cybersecurity, and
+and I have founded a community called Nonymous Community which is dedicated to free education in cybersecurity and programming. 
+6. What are some specific areas or skills in which you have extensive experience?
+Asnwer: cybersecurity, networking, basic IT skills and programming.
+7. How many years of experience do you have in your field?
+Asnwer: around 2 years
+8. What are some of the technologies or tools you are proficient in?
+Asnwer: Blockchain, Linux, Windows, Notion, Visual Code Studio, Figma, Git, Torrent, Tor, ChatGPT, Photoshop, After Effect, Canva ,Davinci Resolve, Office, 
+Nmap, Metasploit, Wireshark, Nessus, Burpsuite, virtualbox.
+9. What are your core values or principles in your work?
+Asnwer: my core value can be described as a relentless pursuit of knowledge, driven by a passion for programming and cybersecurity. 
+I possess a strong problem-solving mindset, thrive on self-motivation and autonomy, and demonstrate adaptability and resilience in 
+the face of challenges. my curiosity and exploration are key drivers in my journey, allowing me to constantly learn, grow, and overcome 
+obstacles.
+10. What is your mission or purpose in your profession?
+Asnwer: my mission is to learn and grow, by helping the community, by contributing to community, and helping the future generations to 
+have free and good education.
+
