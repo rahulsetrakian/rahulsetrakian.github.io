@@ -33,20 +33,6 @@ window.addEventListener('scroll', checkVisibility);
 
 
 
-
-
-
-
-
-
-
-// TEST CODE
-
-
-
-
-
-
 //   ABOUT
 let index = 0,
     interval = 1000;
@@ -73,15 +59,6 @@ for(const star of document.getElementsByClassName("magic-star")) {
 
 
 
-
-
-
-
-
-
-
-
-
 // FADE ANIMATION
 function fadeInOnScroll() {
    const elements = document.querySelectorAll('.fade');
@@ -101,17 +78,7 @@ function fadeInOnScroll() {
 
 
 
-
-
-
-
-
-
-
-
 // SCROLL
-
-
 window.addEventListener('scroll', function() {
    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
    var scrollIcon = document.querySelector('.scroll-icon');
@@ -123,21 +90,6 @@ window.addEventListener('scroll', function() {
    }
  });
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // NAVIGATION
@@ -178,3 +130,41 @@ window.addEventListener("resize", () => {
       }
    }
 });
+
+
+
+
+// CLOSE BUTTON
+function openPopup(event) {
+  event.preventDefault();
+
+  const imageUrl = event.target.closest('.card-image-item').href;
+  const overlay = document.createElement('div');
+  overlay.classList.add('overlay');
+
+  const overlayContent = document.createElement('div');
+  overlayContent.classList.add('overlay-content');
+
+  const image = document.createElement('img');
+  image.src = imageUrl;
+
+  const closeBtn = document.createElement('span');
+  closeBtn.classList.add('close-btn');
+  closeBtn.innerHTML = '&times;';
+  closeBtn.addEventListener('click', closePopup);
+
+  overlayContent.appendChild(image);
+  overlayContent.appendChild(closeBtn);
+  overlay.appendChild(overlayContent);
+  document.body.appendChild(overlay);
+}
+
+function closePopup() {
+  const overlay = document.querySelector('.overlay');
+  document.body.removeChild(overlay);
+}
+
+
+
+// TEST CODE
+
