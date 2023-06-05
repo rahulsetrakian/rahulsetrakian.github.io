@@ -97,15 +97,6 @@ img, video {
 	margin: 0;
   }
 
-.grad-text {
-	animation: move 4s linear infinite;
-	background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
-	background-size: 200% auto;
-	font: 700 70px/1 Helvetica;
-	letter-spacing: 1px;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
 @keyframes move { to { 
 	background-position: 200% center; 
 } 
@@ -1797,3 +1788,56 @@ textarea {
   
 
 	
+/* PORTFOLIO PAGE */
+html {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	overflow-x: hidden;
+}
+#pt-portfolio {
+	overflow-y: visible;
+	position: relative;
+  	height: unset;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit;
+  height: 100vh;
+}
+.pt-container {
+	width: 400%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red;
+}
+.orange{
+	background-color: orange;
+}
+.purple{
+	background-color: purple;
+}
+.panel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.lastContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit;
+  height: 100vh;
+}
+
