@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
 
+
 /* COMPONENTS */
 :root {
 	--color-white-100: #fff;
@@ -103,15 +104,27 @@ img, video {
 }
 
 .fade {
-	opacity: 0;
-	transform: translateY(50px); /* Initial position below the viewport */
+	opacity: 0; /* Initial position below the viewport */
 	transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
   }
-  
-  .fade.visible {
+
+.fadeup {
+	transform: translateY(50px);
+}
+.fadedown{
+	transform: translateY(-50px);
+}
+.faderight{
+	transform: translateX(50px);
+}  
+.fadeleft{
+	transform: translateX(-50px);
+}
+
+.fade.visible {
 	opacity: 1;
 	transform: translateY(0); /* Move the element to its original position */
-  }
+}
   
 /* HTML element you want to apply the fade-in animation to */
 .fade-in {
@@ -317,20 +330,29 @@ img, video {
   .menu-link::after {
 	content: '';
 	position: absolute;
-	bottom: 0;
+	bottom: 4px;
 	left: 0;
 	width: 100%;
 	height: 2px;
 	background-color: var(--color-blue-600);
-	transform: scaleX(0);
+	transform: scaleY(0) translateY(10px);
 	opacity: 0;
 	transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
   .menu-link:hover::after {
-	transform: scaleX(1);
+	transform: scaleY(1) translateY(0);
 	opacity: 1;
   }
+  .menu-link {
+	transition: color 0.3s ease;
+  }
+  
+  .menu-link:hover{
+	
+	color: var(--color-blue-600);
+  }
+
 
  .menu-block {
 	 display: inline-block;
@@ -451,7 +473,7 @@ img, video {
 }
 
 .banner-links > *:hover {
-	color: var(--color-white-100);/* Update with the desired hover color */
+	color: var(--color-white-100);
 }
 
  .banner-links::before {
@@ -983,6 +1005,11 @@ img, video {
 		font-size: var(--fr);
 	}
  }
+@media (max-width: 400px){
+	.title {
+		font-size:clamp(3rem, 8vw, 7rem);
+	}
+}
 
 
 
@@ -1789,55 +1816,3 @@ textarea {
 
 	
 /* PORTFOLIO PAGE */
-html {
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	overflow-x: hidden;
-}
-#pt-portfolio {
-	overflow-y: visible;
-	position: relative;
-  	height: unset;
-}
-
-.firstContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: inherit;
-  height: 100vh;
-}
-.pt-container {
-	width: 400%;
-	height: 100vh;
-	display: flex;
-	flex-wrap: nowrap;
-}
-.blue{
-	background-color: blue;
-}
-.red{
-	background-color: red;
-}
-.orange{
-	background-color: orange;
-}
-.purple{
-	background-color: purple;
-}
-.panel{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-
-.lastContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: inherit;
-  height: 100vh;
-}
-

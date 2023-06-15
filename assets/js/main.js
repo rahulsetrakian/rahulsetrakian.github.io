@@ -167,38 +167,48 @@ function closePopup() {
 
 
 // TEST CODE
+const options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.9
+};
 
-gsap.registerPlugin(ScrollTrigger);
+let revealCallback = (entries, self) => {
+  entries.forEach((entry) => {
+    let container = entry.target;
+    let img = entry.target.querySelector("img");
+    const easeInOut = "power3.out";
+    const revealAnim = gsap.timeline({ ease: easeInOut });
 
-let sections = gsap.utils.toArray(".panel");
-
-gsap.to(sections, {
-  xPercent: -100 * (sections.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".pt-container",
-    pin: true,
-    scrub: 1,
-    snap: 1 / (sections.length - 1),
-    end: () => "+=" + document.querySelector(".pt-container").offsetWidth,
-    onEnter: () => {
-      gsap.to(".container", {
-        maxWidth: "auto",
-        duration: 0.5,
-        ease: "power4.inOut"
+    if (entry.isIntersecting) {
+      revealAnim.set(container, {
+        visibility: "visible"
       });
-      gsap.set(".navbar", { display: "none" });
-    },
-    onLeaveBack: () => {
-      gsap.to(".container", {
-        maxWidth: "75rem",
-        duration: 0.5,
-        ease: "power4.inOut"
+      revealAnim.fromTo(
+        container,
+        {
+          clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+          webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+        },
+        {
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+          webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+          duration: 1,
+          ease: easeInOut
+        }
+      );
+      revealAnim.from(img, 4, {
+        scale: 1.4,
+        ease: easeInOut,
+        delay: -1
       });
-      gsap.set(".navbar", { display: "flex" });
+      self.unobserve(entry.target);
     }
-  }
+  });
+};
+
+let revealObserver = new IntersectionObserver(revealCallback, options);
+
+document.querySelectorAll(".reveal").forEach((reveal) => {
+  revealObserver.observe(reveal);
 });
-
-
-
