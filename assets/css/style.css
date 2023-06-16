@@ -1855,7 +1855,7 @@ textarea {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 
 .pto-main .pto-card {
@@ -1922,12 +1922,11 @@ textarea {
 }
 
 .pto-main .pto-card .pto-content p {
-    color: #333;
+    color: #343434;
 }
 
 .pto-main .pto-card .pto-content a {
     position: relative;
-    top: 6px;
     display: inline-block;
     padding: 12px 25px;
     text-decoration: none;
@@ -1943,7 +1942,6 @@ textarea {
 .pto-main {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 60px;
   }
   
 .pto-card {
@@ -1968,12 +1966,17 @@ textarea {
 	justify-content: center;
 	z-index: 9999;
 	transition: opacity 0.3s ease;
-	overflow: hidden;
+	overflow: auto;
+  }
+  .window-scrollable {
+	max-height: 100vh;
   }
   
   .window-content {
 	text-align: center;
 	color: #000000;
+	max-width: 75rem;
+	width: 100%;
   }
   
   .close-btn {
@@ -1986,8 +1989,12 @@ textarea {
   }
   
   .window-img {
-	max-width: 80%;
-	max-height: 80%;
+	border-radius: 8%;
+	margin-top: 80px;
+	padding: 0px 60px;
+	height: 480px;
+	width: 100%;
+	object-fit: cover;
   }
   
   .window-title {
@@ -1997,7 +2004,11 @@ textarea {
   
   .window-description {
 	font-size: 16px;
-	margin-top: 10px;
+	margin: 10px 60px 0 60px;
+	text-align: justify;
+  }
+  .window-description p {
+	margin: 16px 0;
   }
   
 
@@ -2006,21 +2017,23 @@ textarea {
 	.pto-main .pto-card .pto-img-box{
 		width: 280px;
 	}
-
+	.window-img{
+		border-radius: 18%;
+	}
+	.pto-main .pto-card .pto-content p {
+		margin-bottom: 24px;
+	}
+	
 }
 
 @media (max-width: 700px) {
 	.pto-main {
 		grid-template-columns: none;
-		grid-gap: none;
+		grid-gap:80px;
 	  }
 }
 
 @media (max-width: 660px) {
-	.pto-main {
-		grid-template-columns: none;
-		grid-gap: none;
-	  }
 	.abt-main {
 	  display: block;
 	}
@@ -2043,7 +2056,18 @@ textarea {
   }
 
 @media (max-width: 480px) {
-    .pto-main .pto-card {
+
+    .pto-main .pto-card .pto-content p {
+        font-size: 1rem;
+    }
+
+    .pto-main .pto-card .pto-content a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 360px){
+	.pto-main .pto-card {
         width: 230px;
         border-radius: 15px;
     }
@@ -2051,13 +2075,5 @@ textarea {
     .pto-main .pto-card .pto-img-box {
         width: 185px;
         border-radius: 10px;
-    }
-
-    .pto-main .pto-card .pto-content p {
-        font-size: 0.8rem;
-    }
-
-    .pto-main .pto-card .pto-content a {
-        font-size: 0.9rem;
     }
 }

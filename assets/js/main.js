@@ -166,18 +166,20 @@ function closePopup() {
 
 
 
-// TEST CODE
+// PORTFOLIO SHOWCASE WINDOW
 
 function openFullscreenWindow(imgSrc, altTag, title, description) {
   const windowElement = document.querySelector('.fullscreen-window');
   const imgElement = windowElement.querySelector('.window-img');
   const titleElement = windowElement.querySelector('.window-title');
-  const descElement = windowElement.querySelector('.window-description');
+  const descriptionElement = windowElement.querySelector('.window-description');
 
   imgElement.src = imgSrc;
   imgElement.alt = altTag;
   titleElement.innerText = title;
-  descElement.innerText = description;
+
+  const paragraphs = description.split('|');
+  descriptionElement.innerHTML = paragraphs.map(p => `<p>${p}</p>`).join('');
 
   gsap.fromTo(
     windowElement,
@@ -185,7 +187,6 @@ function openFullscreenWindow(imgSrc, altTag, title, description) {
     { opacity: 1, scale: 1, duration: 0.3, ease: 'power2.out' }
   );
 }
-
 
 function closeFullscreenWindow() {
   const windowElement = document.querySelector('.fullscreen-window');
@@ -209,5 +210,6 @@ readMoreLinks.forEach(function(link) {
     openFullscreenWindow(imgSrc, altTag, title, description);
   });
 });
+
 const closeBtn = document.querySelector('.close-btn');
 closeBtn.addEventListener('click', closeFullscreenWindow);
