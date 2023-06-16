@@ -167,48 +167,47 @@ function closePopup() {
 
 
 // TEST CODE
-const options = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.9
-};
 
-let revealCallback = (entries, self) => {
-  entries.forEach((entry) => {
-    let container = entry.target;
-    let img = entry.target.querySelector("img");
-    const easeInOut = "power3.out";
-    const revealAnim = gsap.timeline({ ease: easeInOut });
+function openFullscreenWindow(imgSrc, altTag, title, description) {
+  const windowElement = document.querySelector('.fullscreen-window');
+  const imgElement = windowElement.querySelector('.window-img');
+  const titleElement = windowElement.querySelector('.window-title');
+  const descElement = windowElement.querySelector('.window-description');
 
-    if (entry.isIntersecting) {
-      revealAnim.set(container, {
-        visibility: "visible"
-      });
-      revealAnim.fromTo(
-        container,
-        {
-          clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-          webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
-        },
-        {
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          duration: 1,
-          ease: easeInOut
-        }
-      );
-      revealAnim.from(img, 4, {
-        scale: 1.4,
-        ease: easeInOut,
-        delay: -1
-      });
-      self.unobserve(entry.target);
-    }
+  imgElement.src = imgSrc;
+  imgElement.alt = altTag;
+  titleElement.innerText = title;
+  descElement.innerText = description;
+
+  gsap.fromTo(
+    windowElement,
+    { opacity: 0, visibility: 'visible', scale: 0.8 },
+    { opacity: 1, scale: 1, duration: 0.3, ease: 'power2.out' }
+  );
+}
+
+
+function closeFullscreenWindow() {
+  const windowElement = document.querySelector('.fullscreen-window');
+
+  gsap.to(windowElement, { opacity: 0, scale: 0.8, duration: 0.3, ease: 'power2.out', onComplete: hideWindow });
+
+  function hideWindow() {
+    windowElement.style.visibility = 'hidden';
+  }
+}
+
+
+const readMoreLinks = document.querySelectorAll('.read-more-link');
+readMoreLinks.forEach(function(link) {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    const imgSrc = this.dataset.img;
+    const altTag = this.dataset.alt;
+    const title = this.dataset.title;
+    const description = this.dataset.description;
+    openFullscreenWindow(imgSrc, altTag, title, description);
   });
-};
-
-let revealObserver = new IntersectionObserver(revealCallback, options);
-
-document.querySelectorAll(".reveal").forEach((reveal) => {
-  revealObserver.observe(reveal);
 });
+const closeBtn = document.querySelector('.close-btn');
+closeBtn.addEventListener('click', closeFullscreenWindow);
