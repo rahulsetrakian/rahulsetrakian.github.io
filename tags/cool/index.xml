@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cool on Rahul Setrakian</title>
+    <link>/tags/cool/</link>
+    <description>Recent content in cool on Rahul Setrakian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jun 2023 13:09:51 +0530</lastBuildDate><atom:link href="/tags/cool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test3</title>
+      <link>/blog/test3/</link>
+      <pubDate>Sat, 17 Jun 2023 13:09:51 +0530</pubDate>
+      
+      <guid>/blog/test3/</guid>
+      <description>Blogai, cool, funTest3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Reading TimeMins
+View1288 Views
+Publish DateYou Gotta Love Birds
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Donec sit amet facilisis quam. Integer mollis, urna accumsan tempor hendrerit, risus neque tincidunt neque, in aliquam elit eros quis tortor. Sed id venenatis massa, ut malesuada sem.</description>
+    </item>
+    
+  </channel>
+</rss>

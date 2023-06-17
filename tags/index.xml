@@ -5,6 +5,34 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Rahul Setrakian</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jun 2023 13:09:51 +0530</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Sat, 17 Jun 2023 13:09:51 +0530</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cool</title>
+      <link>/tags/cool/</link>
+      <pubDate>Sat, 17 Jun 2023 13:09:51 +0530</pubDate>
+      
+      <guid>/tags/cool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>/tags/fun/</link>
+      <pubDate>Sat, 17 Jun 2023 13:09:51 +0530</pubDate>
+      
+      <guid>/tags/fun/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

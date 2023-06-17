@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Test3 | Rahul Setrakian</title>
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css"/>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+	</head>
+
+<body>
+
+
+	  
+
+<header class="header fade-in" id="header">
+  <nav class="navbar container">
+     <a href="/" class="brand">Rahul S.</a>
+     <div class="burger" id="burger">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+     </div>
+     <div class="menu" id="menu">
+        <ul class="menu-inner">
+
+          
+          
+          <li class="menu-item">
+            <a href="/" class="menu-link">Home</a>
+          </li>
+          
+          
+          
+          <li class="menu-item">
+            <a href="/about" class="menu-link">About</a>
+          </li>
+          
+          
+          
+          <li class="menu-item">
+            <a href="/portfolio" class="menu-link">Portfolio</a>
+          </li>
+          
+          
+          
+          <li class="menu-item">
+            <a href="/blog" class="menu-link">Blog</a>
+          </li>
+          
+          
+          
+          <li class="menu-item">
+            <a href="/contact" class="menu-link">Contact</a>
+          </li>
+          
+          
+
+        </ul>
+     </div>
+     <a href="https://in.linkedin.com/in/rahulsetrakian" class="menu-block">Resume</a>
+  </nav>
+</header>
+
+<main class="container content">
+		
+
+
+
+
+
+
+
+
+
+
+<section class="article">
+        <article>
+            <header class="dark-overlay" style="background-image: url('/post/post-1.jpg');">
+                <div class="upper-header">
+                    <div class="mini-title">Blog</div>
+                    <div class="date-since">
+                        <p><span class="date-value" id="sinceData"></span></p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                            <defs>
+                                <style>
+                                    .d {
+                                        width: 20px;
+                                        fill: #fff;
+                                        opacity: .5;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="d" d="M15,0C6.75,0,0,6.75,0,15s6.75,15,15,15,15-6.75,15-15S23.25,0,15,0Zm7.35,16.65h-7.35c-.83,0-1.5-.67-1.5-1.5V7.8c0-.9,.6-1.5,1.5-1.5s1.5,.6,1.5,1.5v5.85h5.85c.9,0,1.5,.6,1.5,1.5s-.6,1.5-1.5,1.5Z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="lower-header">
+                    <div class="tags-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <defs>
+                                <style>
+                                    .d {
+                                        width: 20px;
+                                        fill: #fff;
+                                        opacity: .75;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="d" d="M19.22,9.66L10.77,1.21c-.74-.74-1.86-1.21-2.97-1.21H1.67C.75,0,0,.75,0,1.67V7.8c0,1.11,.46,2.23,1.3,2.97l8.45,8.46c1,1,2.62,1,3.62,0l5.94-5.95c.93-.93,.93-2.6-.09-3.62ZM6.96,6.35c-.59,.59-1.56,.59-2.15,0-.59-.59-.59-1.56,0-2.15,.59-.59,1.56-.59,2.15,0,.59,.59,.59,1.56,0,2.15Z" />
+                        </svg>
+                        <span>ai, cool, fun</span>
+                    </div>
+                    <h1 class="title"> Test3 </h1>
+                    <p class="subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. </p>
+                </div>
+            </header>
+            <section class="summary">
+                <div class="summary-item">
+                    <h5 class="item-title">Reading Time</h5>
+                    <p class="item-text"><span class="item-data"></span> Mins</p>
+                </div>
+                <div class="summary-item">
+                    <h5 class="item-title">View</h5>
+                    <p class="item-text"><span class="item-data">1288</span> Views</p>
+                </div>
+                <div class="summary-item">
+                    <h5 class="item-title">Publish Date</h5>
+                    <p class="item-text"><span class="item-data" id="dateData"></span></p>
+                </div>
+            </section>
+        </article>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/assets/js/article.js"></script>
+
+<p>You Gotta Love Birds</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Donec sit amet facilisis quam. Integer mollis, urna accumsan tempor hendrerit, risus neque tincidunt neque, in aliquam elit eros quis tortor. Sed id venenatis massa, ut malesuada sem. Nam lacinia sodales tellus nec efficitur. Vestibulum fringilla nisl ac iaculis ultricies. Sed commodo imperdiet metus vitae molestie. In laoreet rutrum pretium. Aenean a enim ac lacus tincidunt pellentesque ac a tellus.</p>
+<p>Donec imperdiet efficitur risus in venenatis. Aenean ornare iaculis orci a condimentum. Praesent tincidunt, purus ac placerat posuere, lacus risus suscipit lacus, et sollicitudin turpis metus in enim. Vestibulum at imperdiet magna, ac vehicula magna. Praesent placerat sapien bibendum, faucibus lectus at, euismod elit. Nunc velit est, faucibus et faucibus eu, tempus non nisi. Fusce hendrerit auctor lectus non auctor. Vestibulum luctus metus eget sapien volutpat congue. Fusce eget augue mauris. Ut egestas mi et feugiat sagittis. Cras ac convallis elit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Donec sit amet facilisis quam. Integer mollis, urna accumsan tempor hendrerit, risus neque tincidunt neque, in aliquam elit eros quis tortor. Sed id venenatis massa, ut malesuada sem. Nam lacinia sodales tellus nec efficitur. Vestibulum fringilla nisl ac iaculis ultricies. Sed commodo imperdiet metus vitae molestie. In laoreet rutrum pretium. Aenean a enim ac lacus tincidunt pellentesque ac a tellus.</p>
+<p>Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero pellentesque interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel elementum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.
+Flapping Around, Flying All Over</p>
+<p>Donec imperdiet efficitur risus in venenatis. Aenean ornare iaculis orci a condimentum. Praesent tincidunt, purus ac placerat posuere, lacus risus suscipit lacus, et sollicitudin turpis metus in enim. Vestibulum at imperdiet magna, ac vehicula magna. Praesent placerat sapien bibendum, faucibus lectus at, euismod elit. Nunc velit est, faucibus et faucibus eu, tempus non nisi. Fusce hendrerit auctor lectus non auctor. Vestibulum luctus metus eget sapien volutpat congue. Fusce eget augue mauris. Ut egestas mi et feugiat sagittis. Cras ac convallis elit.</p>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+<p>Donec eu eros augue. Fusce blandit sed lacus ut pretium. Vivamus lacus ligula, fringilla sit amet nibh non, bibendum auctor nisi. In quis mollis mauris. Aliquam eget arcu ut arcu rhoncus posuere nec sit amet mauris. Integer consequat felis vitae quam ultricies, eu ultrices mi finibus. Cras eget nunc at nisl venenatis lacinia. Duis non tempus purus. Donec ut tristique turpis. Nunc non lacinia lectus, in ullamcorper erat.</p>
+<pre><code>&quot;Be like the bird who, pausing in her flight awhile on boughs too slight, feels them give way beneath her, and yet sings, knowing she hath wings.&quot; — Victor Hugo
+</code></pre>
+<p>Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero pellentesque interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel elementum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.</p>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+<p>Donec imperdiet efficitur risus in venenatis. Aenean ornare iaculis orci a condimentum. Praesent tincidunt, purus ac placerat posuere, lacus risus suscipit lacus, et sollicitudin turpis metus in enim. Vestibulum at imperdiet magna, ac vehicula magna. Praesent placerat sapien bibendum, faucibus lectus at, euismod elit. Nunc velit est, faucibus et faucibus eu, tempus non nisi. Fusce hendrerit auctor lectus non auctor. Vestibulum luctus metus eget sapien volutpat congue. Fusce eget augue mauris. Ut egestas mi et feugiat sagittis. Cras ac convallis elit.</p>
+<p>Etiam ac pretium erat. Nullam mollis, enim sed pretium pellentesque, urna dolor faucibus nisi, interdum luctus neque eros blandit justo. Morbi non urna scelerisque, condimentum ex nec, bibendum sem. Pellentesque ullamcorper quis dui non condimentum. Ut aliquam neque metus, in suscipit lorem volutpat eget. Mauris ac dictum nulla, eu suscipit justo.</p>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.
+Building Nests, Eating Bugs</p>
+<p>Mauris eu nunc a dolor aliquam molestie vitae non turpis. Curabitur mollis vehicula euismod. Mauris eleifend, ipsum nec tempor condimentum, massa arcu lobortis erat, eget iaculis turpis turpis id nisi. Fusce iaculis velit nibh, a molestie neque placerat interdum. Phasellus eget erat placerat, viverra quam vitae, viverra ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla dictum, enim vitae eleifend vehicula, augue arcu dapibus metus, non accumsan nulla urna id mauris. Nunc non mi turpis. Nullam bibendum magna in metus tincidunt, vel dapibus neque placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum felis libero, consequat vel congue et, ultricies ornare arcu. Mauris vitae felis vitae nulla ornare condimentum.</p>
+<p>Nunc nisi justo, lobortis venenatis consectetur vel, porttitor in felis. Praesent tincidunt, mi non tincidunt egestas, libero risus finibus ex, volutpat facilisis nulla libero ut arcu. Proin consequat ligula non libero viverra, ut semper sem rhoncus. Morbi at viverra nisl, in convallis lorem. Proin ut dapibus ex, eu hendrerit mi. Donec tempus arcu quis purus consequat, sed congue nulla consequat. Donec tempor posuere lacus eget placerat. Maecenas euismod congue ornare. Vestibulum tincidunt eros ut faucibus blandit.</p>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+<p>Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero pellentesque interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel elementum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.
+Singing Little Songs, Looking Fancy</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Donec sit amet facilisis quam. Integer mollis, urna accumsan tempor hendrerit, risus neque tincidunt neque, in aliquam elit eros quis tortor. Sed id venenatis massa, ut malesuada sem. Nam lacinia sodales tellus nec efficitur. Vestibulum fringilla nisl ac iaculis ultricies. Sed commodo imperdiet metus vitae molestie. In laoreet rutrum pretium. Aenean a enim ac lacus tincidunt pellentesque ac a tellus.</p>
+<pre><code>&quot;I'd rather learn from one bird how to sing than teach ten thousand stars how not to dance&quot; — e.e. cummings
+</code></pre>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+<p>Etiam ac pretium erat. Nullam mollis, enim sed pretium pellentesque, urna dolor faucibus nisi, interdum luctus neque eros blandit justo. Morbi non urna scelerisque, condimentum ex nec, bibendum sem. Pellentesque ullamcorper quis dui non condimentum. Ut aliquam neque metus, in suscipit lorem volutpat eget. Mauris ac dictum nulla, eu suscipit justo.</p>
+<p>Pellentesque suscipit metus et lorem pharetra vehicula. Maecenas luctus urna sed posuere feugiat. Proin pharetra eu nisl et vestibulum. Maecenas sollicitudin at velit non faucibus. Suspendisse faucibus at tellus rutrum tempus. Proin sollicitudin vehicula dolor sit amet efficitur. Nulla finibus massa a consectetur dapibus.</p>
+<p>Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero pellentesque interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel elementum lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.</p>
+<p>Nunc nisi justo, lobortis venenatis consectetur vel, porttitor in felis. Praesent tincidunt, mi non tincidunt egestas, libero risus finibus ex, volutpat facilisis nulla libero ut arcu. Proin consequat ligula non libero viverra, ut semper sem rhoncus. Morbi at viverra nisl, in convallis lorem. Proin ut dapibus ex, eu hendrerit mi. Donec tempus arcu quis purus consequat, sed congue nulla consequat. Donec tempor posuere lacus eget placerat. Maecenas euismod congue ornare. Vestibulum tincidunt eros ut faucibus blandit.</p>
+<p>Donec vel tempor velit. Nulla facilisi. Praesent feugiat arcu risus, sollicitudin finibus purus sollicitudin et. Quisque a consequat nulla. Fusce eu sapien ac libero luctus posuere. Sed vulputate erat ante, sit amet varius lorem ultrices a. Nam id faucibus mi. Nunc pretium malesuada lorem, ut mollis elit aliquam ac. Morbi iaculis tellus ullamcorper, mollis tellus ut, egestas mi. Nunc convallis dolor eget sem egestas, et egestas est scelerisque.
+Birds: They&rsquo;re Great!</p>
+<p>Donec vel mi a ipsum ornare venenatis. Etiam imperdiet nunc leo. Morbi faucibus elit in orci viverra posuere. Nunc eget urna ac lectus sagittis mollis vel auctor diam. Vivamus sodales, nulla id lacinia congue, massa velit laoreet nunc, vitae interdum mauris leo sed quam. Integer tincidunt quis sem non consectetur. Nam elementum nibh eu fermentum imperdiet. Nullam nec quam at enim fringilla porta et non lectus. Aliquam tempus odio id enim cursus bibendum. Nullam a metus augue. Cras elit leo, convallis in commodo eget, tempus scelerisque mauris. Quisque ultricies dolor eget eleifend consectetur. Nulla eu lorem dignissim nulla interdum consequat. Donec non maximus tellus. Aliquam erat volutpat. Nulla porttitor odio in turpis convallis, ac rhoncus tellus pellentesque.</p>
+<p>In hac habitasse platea dictumst. Aenean sit amet libero lorem. Quisque in sagittis nisl, placerat auctor tellus. Suspendisse scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo mollis, et finibus nisl finibus. Pellentesque tempus ut ante non ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie ultricies massa. Curabitur nec suscipit metus.</p>
+<p>Nunc nisi justo, lobortis venenatis consectetur vel, porttitor in felis. Praesent tincidunt, mi non tincidunt egestas, libero risus finibus ex, volutpat facilisis nulla libero ut arcu. Proin consequat ligula non libero viverra, ut semper sem rhoncus. Morbi at viverra nisl, in convallis lorem. Proin ut dapibus ex, eu hendrerit mi. Donec tempus arcu quis purus consequat, sed congue nulla consequat. Donec tempor posuere lacus eget placerat. Maecenas euismod congue ornare. Vestibulum tincidunt eros ut faucibus blandit.</p>
+<p>Mauris eu nunc a dolor aliquam molestie vitae non turpis. Curabitur mollis vehicula euismod. Mauris eleifend, ipsum nec tempor condimentum, massa arcu lobortis erat, eget iaculis turpis turpis id nisi. Fusce iaculis velit nibh, a molestie neque placerat interdum. Phasellus eget erat placerat, viverra quam vitae, viverra ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla dictum, enim vitae eleifend vehicula, augue arcu dapibus metus, non accumsan nulla urna id mauris. Nunc non mi turpis. Nullam bibendum magna in metus tincidunt, vel dapibus neque placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum felis libero, consequat vel congue et, ultricies ornare arcu. Mauris vitae felis vitae nulla ornare condimentum</p>
+
+
+</main>
+<script src="/assets/js/main.js"></script>
+<footer class="footer container fade-in">
+	<div class="footer-container">
+	  <div class="leftside">
+		<h2>Main Menu</h2>
+		<p>	
+			<a href="/about">About</a>
+			<br> 
+			<a href="/portfolio">Portfolio</a>
+			<br>
+			<a href="/blog">Blog</a>
+			<br> 
+			<a href="/contact">Contact</a>
+		</p>
+	  </div>
+
+	  <div class="rightside">
+		<h2>Connect with Me</h2>
+		<p>
+			<br>
+			<div class="social-icon">
+		  <a href="https://in.linkedin.com/in/rahulsetrakian" title=""><i class="bx bxl-linkedin"></i></a>
+		  <a href="https://www.instagram.com/rahulsetrakian" title=""><i class="bx bxl-instagram"></i></a>
+		  <a href="https://twitter.com/rahulsetrakian" title=""><i class="bx bxl-twitter"></i></a>
+		  <a href="https://www.youtube.com/@rahulsetrakian" title=""><i class="bx bxl-youtube"></i></a></div>
+		  <br>
+		  <br>
+		</p>
+	  </div>
+	</div>
+	<hr>
+	<div class="center">
+		<p class="footer-copy">© 2022, Rahul Setrakian</p>
+	  </div>
+  </footer>
+  
+<a href="#" class="scroll-icon">
+	<i class='bx bx-chevron-up'></i>
+</a>
+</body>
+</html>
+
