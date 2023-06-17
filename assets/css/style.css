@@ -1950,6 +1950,8 @@ textarea {
 	background-color: #0c0f13;
 	text-align: center;
 }
+
+
 .rd-margin{
 	margin-top: 15%;
 }
@@ -2050,6 +2052,9 @@ textarea {
 		grid-template-columns: none;
 		grid-gap:80px;
 	  }
+	.pto-card{
+		background-color: var(--color-black-800);
+	}
 }
 
 @media (max-width: 660px) {
