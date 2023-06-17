@@ -1919,10 +1919,11 @@ textarea {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--clr);
+	margin-bottom: 8px;
 }
 
 .pto-main .pto-card .pto-content p {
-    color: #343434;
+    color: white;
 }
 
 .pto-main .pto-card .pto-content a {
@@ -1931,7 +1932,7 @@ textarea {
     padding: 12px 25px;
     text-decoration: none;
     background: var(--clr);
-    color: white;
+    color: black;
     font-weight: 500;
 }
 
@@ -1999,8 +2000,12 @@ textarea {
   }
   
   .window-title {
-	font-size: 24px;
 	margin-top: 20px;
+	transition: 0.3s;
+  }
+  .window-link:hover{
+	color: var(--color-blue-600);
+	text-decoration: underline var(--color-blue-600);
   }
   
   .window-description {
@@ -2014,15 +2019,28 @@ textarea {
   
 
 /* RESPONSIVE DESIGN */
+@media (max-width: 1024px){
+	.window-img{
+		height: 380px;
+		border-radius: 10%;
+	}
+}
+
+
 @media (max-width: 780px){
 	.pto-main .pto-card .pto-img-box{
 		width: 280px;
 	}
-	.window-img{
-		border-radius: 18%;
-	}
 	.pto-main .pto-card .pto-content p {
 		margin-bottom: 24px;
+	}
+	.window-img{
+		height: 280px;
+		border-radius: 10%;
+		padding: 0px 30px;
+	}
+	.window-description{
+		margin: 10px 30px 0 30px;
 	}
 	
 }
@@ -2054,6 +2072,10 @@ textarea {
 	  padding-bottom:0px;
 	  margin-top: 14px;
 	}
+	.window-img{
+		height: 280px;
+		border-radius: 10%;
+	}
   }
 
 @media (max-width: 480px) {
@@ -2065,6 +2087,9 @@ textarea {
     .pto-main .pto-card .pto-content a {
         font-size: 0.9rem;
     }
+	.window-img{
+		height: 180px;
+	}
 }
 
 @media (max-width: 360px){
@@ -2077,4 +2102,9 @@ textarea {
         width: 185px;
         border-radius: 10px;
     }
+	.window-img{
+		height: 120px;
+		border-radius: 12%;
+	}
+
 }
