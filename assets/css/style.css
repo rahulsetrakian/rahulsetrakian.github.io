@@ -2158,8 +2158,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	height: calc(max(100vh, 400px));
-	padding: 80px 0px;
+	padding: 80px 0px 40px 0px;
 	font-family: "Plus Jakarta Sans", sans-serif;
 }
 .article article {
@@ -2256,3 +2255,40 @@ textarea {
 	margin-top: 12px;
 	font-size: 1.5rem;
 }
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 780px){
+
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (max-width: 660px) {
+	.article .summary .summary-item .item-text{
+		font-size: 1.2rem;
+		}
+		.article .summary .summary-item{
+			padding-right: 0;
+		}
+}
+
+@media (max-width: 480px) {
+	.article .summary {
+		padding: 30px 20px;
+	}
+	.article .summary .summary-item .item-text{
+		font-size: 1rem;
+		}
+	
+}
+
+@media (max-width: 360px){
+
+}
+
