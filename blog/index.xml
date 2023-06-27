@@ -2,47 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Rahul Setrakian</title>
-    <link>/blog/</link>
+    <link>https://rahulsetrakian.org/blog/</link>
     <description>Recent content in Blog on Rahul Setrakian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jun 2023 13:07:37 +0530</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2023 08:32:49 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>India&#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech</title>
+      <link>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</link>
+      <pubDate>Tue, 27 Jun 2023 08:32:49 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</guid>
+      <description>BlogPrivacy, Free Speech, EncryptionIndia&amp;#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech India&amp;#39;s ban on encrypted messaging apps undermines privacy and free speech, setting a dangerous precedent for democracy and citizens&amp;#39; rights. Reading TimeMins
+ViewViews
+Publish DateJune 27, 2023India&amp;rsquo;s Ban on Encrypted Messaging Apps “Privacy is not a privilege, it is a fundamental right.” - Edward Snowden
+In a shocking move, India, once hailed as the world&amp;rsquo;s largest democracy, has taken a giant leap towards eroding privacy and stifling free speech by banning encrypted messaging apps on a massive scale.</description>
+    </item>
+    
     <item>
       <title>Test2</title>
-      <link>/blog/test2/</link>
-      <pubDate>Sat, 17 Jun 2023 13:07:37 +0530</pubDate>
+      <link>https://rahulsetrakian.org/blog/test2/</link>
+      <pubDate>Sun, 25 Jun 2023 08:35:50 +0530</pubDate>
       
-      <guid>/blog/test2/</guid>
-      <description>fuck</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>/blog/test/</link>
-      <pubDate>Sun, 07 May 2023 19:03:50 +0530</pubDate>
-      
-      <guid>/blog/test/</guid>
-      <description>Hello Friend</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>/blog/my-first-post/</link>
-      <pubDate>Thu, 03 Sep 2020 17:27:59 +0700</pubDate>
-      
-      <guid>/blog/my-first-post/</guid>
-      <description>Here&amp;rsquo;s an example blog post.</description>
+      <guid>https://rahulsetrakian.org/blog/test2/</guid>
+      <description>BlogTest2 Reading TimeMins
+ViewViews
+Publish DateJune 25, 2023Heading 1 Share This PostRahul Setrakian@rahulsetrakianI am a passionate and driven learner with diverse skills, seeking impactful collaborations.357Views12Projects35FollowersFollow MeAbout MePlease enable JavaScript to view the comments powered by Disqus.</description>
     </item>
     
     <item>
       <title>Test3</title>
-      <link>/blog/test3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://rahulsetrakian.org/blog/test3/</link>
+      <pubDate>Thu, 22 Jun 2023 08:35:53 +0530</pubDate>
       
-      <guid>/blog/test3/</guid>
-      <description>Blogai, cool, funTest3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Reading TimeMins
+      <guid>https://rahulsetrakian.org/blog/test3/</guid>
+      <description>BlogTest3 Reading TimeMins
 ViewViews
-Publish DateJune 24, 2023 You Gotta Love Birds Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ut quam sit amet vehicula. Donec sit amet facilisis quam. Integer mollis, urna accumsan tempor hendrerit, risus neque tincidunt neque, in aliquam elit eros quis tortor.</description>
+Publish DateJune 22, 2023Heading 1 Share This PostRahul Setrakian@rahulsetrakianI am a passionate and driven learner with diverse skills, seeking impactful collaborations.357Views12Projects35FollowersFollow MeAbout MePlease enable JavaScript to view the comments powered by Disqus.</description>
+    </item>
+    
+    <item>
+      <title>Test4</title>
+      <link>https://rahulsetrakian.org/blog/test4/</link>
+      <pubDate>Sun, 27 Jun 2021 08:35:56 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/test4/</guid>
+      <description>BlogTest4 Reading TimeMins
+ViewViews
+Publish DateJune 27, 2021Heading 1 Share This PostRahul Setrakian@rahulsetrakianI am a passionate and driven learner with diverse skills, seeking impactful collaborations.357Views12Projects35FollowersFollow MeAbout MePlease enable JavaScript to view the comments powered by Disqus.</description>
     </item>
     
   </channel>

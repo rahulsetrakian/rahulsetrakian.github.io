@@ -163,3 +163,6 @@ function closePopup() {
   const overlay = document.querySelector('.overlay');
   document.body.removeChild(overlay);
 }
+
+
+// TEST CODE

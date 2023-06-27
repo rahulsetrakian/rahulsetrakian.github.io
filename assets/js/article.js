@@ -48,3 +48,11 @@ function generateNextRandomNumber() {
 
 // Example usage:
 generateNextRandomNumber(); // Generates and displays the next random number
+
+
+
+
+
+
+
+

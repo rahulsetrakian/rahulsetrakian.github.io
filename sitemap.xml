@@ -2,39 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2023-06-17T13:07:37+05:30</lastmod>
+    <loc>https://rahulsetrakian.org/blog/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2023-06-17T13:07:37+05:30</lastmod>
+    <loc>https://rahulsetrakian.org/categories/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/blog/test2/</loc>
-    <lastmod>2023-06-17T13:07:37+05:30</lastmod>
+    <loc>https://rahulsetrakian.org/tags/encryption/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/blog/test/</loc>
-    <lastmod>2023-05-07T19:03:50+05:30</lastmod>
+    <loc>https://rahulsetrakian.org/tags/free-speech/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/blog/my-first-post/</loc>
-    <lastmod>2020-09-03T17:27:59+07:00</lastmod>
+    <loc>https://rahulsetrakian.org/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/tags/ai/</loc>
+    <loc>https://rahulsetrakian.org/tags/privacy/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://rahulsetrakian.org/tags/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>https://rahulsetrakian.org/categories/technology/</loc>
+    <lastmod>2023-06-27T08:32:49+05:30</lastmod>
   </url><url>
-    <loc>/tags/cool/</loc>
+    <loc>https://rahulsetrakian.org/blog/test2/</loc>
+    <lastmod>2023-06-25T08:35:50+05:30</lastmod>
   </url><url>
-    <loc>/tags/fun/</loc>
+    <loc>https://rahulsetrakian.org/blog/test3/</loc>
+    <lastmod>2023-06-22T08:35:53+05:30</lastmod>
   </url><url>
-    <loc>/portfolio/</loc>
+    <loc>https://rahulsetrakian.org/blog/test4/</loc>
+    <lastmod>2021-06-27T08:35:56+05:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://rahulsetrakian.org/about/</loc>
   </url><url>
-    <loc>/blog/test3/</loc>
+    <loc>https://rahulsetrakian.org/contact/</loc>
   </url><url>
-    <loc>/thank-you/</loc>
+    <loc>https://rahulsetrakian.org/portfolio/</loc>
+  </url><url>
+    <loc>https://rahulsetrakian.org/thank-you/</loc>
   </url>
 </urlset>

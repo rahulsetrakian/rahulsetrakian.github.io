@@ -1,0 +1,176 @@
+/* FEATURED */
+
+:root {	
+    --clr-1: #00c2ff;
+	--clr-2: #33ff8c;
+	--clr-3: #ffc640;
+	--clr-4: #e54cff;
+}
+
+#featured  {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+#featured  .header-container {
+    padding: 10% 0;
+    padding-top: 20em;
+}
+#featured .header-container .small {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 14px 0;
+    font-weight: 100;
+}
+#featured .header-container .large {
+    width: 500px;
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 0 0 32px 0;
+    font-weight: 100;
+} 
+#featured .header-container .large span {
+    font-weight: bold;
+} 
+#featured .header-container form {
+    display: flex;
+    align-items: center;
+}
+#featured .header-container form input {
+    width: 500px;
+    padding: 20px 15px;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-indent: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    background: #0c0f13;
+}
+#featured .header-container form button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #080a0c;
+    border-radius: 100%;
+    margin-left: -57px;
+    cursor: pointer;
+    background-size: 200% auto;
+    transition: 0.8s;
+}
+#featured .header-container form button:hover {
+    background-color: #0c0f13;
+}
+
+#featured .header-container form button svg {
+    width: 20px;
+    fill: white;
+    margin: auto;
+    margin-top: 4px;
+}
+.special-text {
+    animation: move 4s linear infinite;
+    background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes move {
+    to {
+        background-position: 200% center;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main-content .small {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 14px 0;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px){
+
+}
+@media (max-width: 780px){
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 660px) {
+
+}
+@media (max-width: 540px) {
+    #featured .header-container form input {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    #featured .header-container .large{
+        width: auto;
+        font: 1.5rem;
+    }
+}
+@media (max-width: 450px) {
+
+  }
+@media (max-width: 425px) {
+
+}
+@media (max-width: 330px){
+
+}
+
