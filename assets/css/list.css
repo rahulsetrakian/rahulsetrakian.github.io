@@ -21,7 +21,7 @@
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 14px 0;
     font-weight: 100;
 }
@@ -118,7 +118,7 @@
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 14px 0;
     font-weight: 100;
 }
@@ -140,7 +140,12 @@
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px){
-
+    #featured .header-container .small{
+        font-weight: 700;
+    }
+    #main-content .small {
+        font-weight: 700;
+    }
 }
 @media (max-width: 780px){
 
