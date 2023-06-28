@@ -73,7 +73,7 @@
     margin-top: 4px;
 }
 .special-text {
-    animation: move 4s linear infinite;
+    animation: move 2s linear infinite;
     background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -108,12 +108,7 @@
 
 
 
-
-
-
-
-
-
+/* CONTENT */
 #main-content .small {
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
@@ -122,7 +117,97 @@
     margin: 0 0 14px 0;
     font-weight: 100;
 }
+#main-content {
+  display: flex;
+}
 
+#sidebar {
+  width: 25%; /* Adjust the width as per your needs */
+}
+
+.side-content {
+  width: 75%; /* Adjust the width as per your needs */
+}
+
+/* Additional styling for the sidebar */
+#sidebar h2 {
+  margin-top: 0;
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+/* Additional styling for the content */
+.side-content h2.small {
+  margin-top: 0;
+}
+
+.post-snippet {
+  margin-bottom: 2rem;
+}
+
+.tags {
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  margin-right: 0.5rem;
+}
+
+.description {
+  margin-bottom: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  border-radius: .25rem;
+  margin: 20px 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: .75rem 1rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.homepage .page-link,
+.listing .page-link {
+  background-color: #fff;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
 
 
 
