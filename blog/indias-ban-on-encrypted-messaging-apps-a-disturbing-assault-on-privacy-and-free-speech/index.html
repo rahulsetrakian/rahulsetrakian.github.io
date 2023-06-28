@@ -128,12 +128,11 @@
 </section>
 
 
-<div>Number of visitors: <div id="stats"></div></div>
 
 <script>
     var r = new XMLHttpRequest();
     r.addEventListener('load', function() {
-        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+        document.querySelector('#viewStat').innerText = JSON.parse(this.responseText).count
     })
     const lastSlashIndex = location.pathname.lastIndexOf('/');
     const pathWithoutLastSlash = location.pathname.substring(0, lastSlashIndex) + location.pathname.substring(lastSlashIndex + 1);
@@ -237,20 +236,18 @@
         var d = document, s = d.createElement('script');
         s.src = 'https://rahulsetrakian.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
+        s.setAttribute('referrerpolicy', 'no-referrer-when-downgrade'); 
         (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <script id="dsq-count-scr" src="//rahulsetrakian.disqus.com/count.js" async></script>
-<script src="/assets/js/article.js"></script></p>
+<script src="/assets/js/article.js"></script>
+</p>
 
-<script>
-        window.goatcounter = {
-            path: location.pathname || '/',
-        }
-</script>
+
 <script data-goatcounter="https://rahulsetrakian.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+            async src="//gc.zgo.at/count.js"></script>
 
 </main>
 <script src="/assets/js/main.js"></script>
