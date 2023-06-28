@@ -128,6 +128,17 @@
 </section>
 
 
+<div>Number of visitors: <div id="stats"></div></div>
+
+<script>
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+    })
+    r.open('GET', 'https://rahulsetrakian.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+    r.send()
+</script>
+
 
 
 
