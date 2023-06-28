@@ -135,7 +135,9 @@
     r.addEventListener('load', function() {
         document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
     })
-    r.open('GET', 'https://rahulsetrakian.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+    const lastSlashIndex = location.pathname.lastIndexOf('/');
+    const pathWithoutLastSlash = location.pathname.substring(0, lastSlashIndex) + location.pathname.substring(lastSlashIndex + 1);
+    r.open('GET', 'https://rahulsetrakian.goatcounter.com/counter/' + encodeURIComponent(pathWithoutLastSlash) + '.json');
     r.send()
 </script>
 
@@ -242,7 +244,11 @@
 <script id="dsq-count-scr" src="//rahulsetrakian.disqus.com/count.js" async></script>
 <script src="/assets/js/article.js"></script></p>
 
-
+<script>
+        window.goatcounter = {
+            path: location.pathname || '/',
+        }
+</script>
 <script data-goatcounter="https://rahulsetrakian.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
