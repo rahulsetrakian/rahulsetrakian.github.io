@@ -109,6 +109,10 @@
 
 
 /* CONTENT */
+#main-content {
+  margin-bottom: 40px;
+}
+
 #main-content .small {
     color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
@@ -117,48 +121,13 @@
     margin: 0 0 14px 0;
     font-weight: 100;
 }
-
+.side-content{
+  margin-bottom: 40px;
+}
 
 
 /* Additional styling for the sidebar */
-#sidebar h2 {
-  margin-top: 0;
-  color: #ffffff;
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: 100;
-}
 
-#sidebar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#sidebar li {
-  margin-bottom: 0.5rem;
-}
-
-/* Additional styling for the content */
-.side-content h2.small {
-  margin-top: 0;
-}
-
-.post-snippet {
-  margin-bottom: 2rem;
-}
-
-.tags {
-  margin-bottom: 0.5rem;
-}
-
-.tag {
-  margin-right: 0.5rem;
-}
-
-.description {
-  margin-bottom: 0.5rem;
-}
 
 .pagination {
   display: flex;
@@ -175,9 +144,12 @@
   padding: .75rem 1rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  color: #fff;
+  border: 2px solid #0c0f13;
+  transition: 0.6s;
+}
+.page-link:hover{
+  background-color: #0c0f13;
 }
 
 .homepage .page-link,
@@ -196,20 +168,17 @@
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0c0f13;
 }
-
-
-
-
-
-
+.page-item.active .page-link:hover {
+  background-color: transparent;
+}
 
 
 .blg-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .blg-card{
@@ -218,10 +187,9 @@
   border-radius: 0.5rem;
   position: relative;
   width: 350px;
-  margin: 1.5rem 3rem;
+  margin: 1rem;
   transition: 250ms all ease-in-out;
   cursor: pointer;
-  margin-left: 0;
 }
 
 .blg-card:hover {
@@ -234,12 +202,17 @@
   object-fit: cover;
   height: 14rem;
   width: 100%;
+  transition: 0.6s;
 }
+.blg-banner-img:hover{
+  opacity: 0.6;
+}
+
 
 .category-tag {
   font-size: 0.8rem;
   font-weight: bold;
-  color: #fff;
+  
   padding: 0.5rem 1.3rem 0.5rem 1rem;
   text-transform: uppercase;
   position: absolute;
@@ -251,6 +224,12 @@
 .popular {
   background: #0c0f13;
 }
+.popular a {
+  color: #fff;
+}
+.popular a:hover {
+  color: #c7c7c7;
+}
 
 
 .blg-card-body {
@@ -260,13 +239,24 @@
 .blog-hashtag {
   font-size: 0.9rem;
   font-weight: 500;
+}
+.blog-hashtag a{
   color: var(--clr-1);
+}
+.blog-hashtag a:hover{
+  color: #9ce8ff;
 }
 
 .blog-title {
   line-height: 1.5rem;
   margin: 1rem 0 0.5rem;
   font-size: x-large;
+}
+.blog-title a {
+  color: white;
+}
+.blog-title a:hover {
+  color: #c7c7c7;
 }
 
 .blog-description {
@@ -285,6 +275,10 @@
   height: 60px;
   object-fit: cover;
   border-radius: 50%;
+  transition: 0.5s;
+}
+.profile-img:hover{
+  opacity: 0.6;
 }
 
 .blg-card-profile-info {
@@ -295,10 +289,58 @@
   font-size: 1rem;
 }
 
+.profile-name a {
+  color: white;
+}
+.profile-name a:hover {
+  color: #c7c7c7;
+}
+
+
 .profile-followers {
   color: #616b74;
   font-size: 0.9rem;
 }
+
+
+
+
+
+#sidebar {
+  border-radius: 0.5rem;
+  background: #0c0f13;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+.sidebar_container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+  gap: 20px; /* Spacing between the containers */
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left */
+}
+
+.sidebar-container h2 {
+  margin-bottom: 10px; /* Add some space below the heading */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -311,12 +353,12 @@
 /* RESPONSIVE DESIGN */
 @media (max-width: 1400px){
   .blg-card {
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0; 
   }
 }
 @media (max-width: 1200px){
   .blg-card {
-    margin: 0.5rem;
+    width: calc(48% );
   }
 }
 
@@ -330,12 +372,14 @@
         font-weight: 700;
     }
 }
-@media (max-width: 780px){
 
-}
-
-@media (max-width: 768px) {
-
+@media (max-width: 840px) {
+  .blg-card {
+    width: calc(100%);
+  }
+  .blg-card {
+    margin: 1rem 0.5rem;
+  }
 }
 
 @media (max-width: 660px) {

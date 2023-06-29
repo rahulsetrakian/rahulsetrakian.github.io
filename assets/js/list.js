@@ -10,7 +10,7 @@ blog_description.forEach(paragraph => {
   }
 });
 
-const blog_title = document.querySelectorAll('.blog-title');
+const blog_title = document.querySelectorAll('.blog-url');
 
 blog_title.forEach(paragraph => {
   const content = paragraph.textContent;
