@@ -307,17 +307,25 @@
 
 
 #sidebar {
-  border-radius: 0.5rem;
   background: #0c0f13;
-  padding: 60px 0;
-  display: flex;
   justify-content: center;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
 }
-.sidebar_container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-  gap: 20px; /* Spacing between the containers */
+
+.sub .sub__title {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+.sub .sub__content{
+  color: #616b74;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+.sub .sub__form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 14px;
 }
 
 .sidebar-container {
@@ -330,8 +338,9 @@
   margin-bottom: 10px; /* Add some space below the heading */
 }
 
-
-
+.grecaptcha-badge{
+  display: none;
+}
 
 
 
