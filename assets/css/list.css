@@ -1,5 +1,6 @@
 /* FEATURED */
 
+
 :root {	
     --clr-1: #00c2ff;
 	--clr-2: #33ff8c;
@@ -8,14 +9,13 @@
 }
 
 #featured  {
-    width: 100%;
-    height: 720px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 90px;
 }
 #featured  .header-container {
-    padding: 10% 0;
     padding-top: 20em;
+    margin-bottom: 40px;
 }
 #featured .header-container .small {
     color: #ffffff;
@@ -51,20 +51,19 @@
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
     background: #0c0f13;
 }
+
+
 #featured .header-container form button {
     width: 50px;
     height: 50px;
     border: none;
-    background: #080a0c;
     border-radius: 100%;
     margin-left: -57px;
-    cursor: pointer;
+    cursor: auto;
     background-size: 200% auto;
     transition: 0.8s;
 }
-#featured .header-container form button:hover {
-    background-color: #0c0f13;
-}
+
 
 #featured .header-container form button svg {
     width: 20px;
@@ -72,6 +71,12 @@
     margin: auto;
     margin-top: 4px;
 }
+#featured .header-container form button i {
+  color: white;
+  font-size: 24px;
+  margin-top: 4px;
+}
+
 .special-text {
     animation: move 2s linear infinite;
     background-image: linear-gradient(to right, #77f, #33d0ff, #25ffbb, #33d0ff, #77f);
@@ -84,6 +89,33 @@
         background-position: 200% center;
    }
 }
+
+#search .pagefind-ui .pagefind-ui__form .pagefind-ui__search-input {
+  transition: 0.3s ease;
+}
+#search .pagefind-ui .pagefind-ui__form .pagefind-ui__search-input:focus {
+  
+}
+
+#search .pagefind-ui .pagefind-ui__form .pagefind-ui .pagefind-ui__drawer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -341,6 +373,56 @@
 .grecaptcha-badge{
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
