@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TryHackMe on Rahul Setrakian</title>
+    <link>https://rahulsetrakian.org/tags/tryhackme/</link>
+    <description>Recent content in TryHackMe on Rahul Setrakian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jul 2023 13:01:24 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/tags/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harry Potter – CTF Walkthrough</title>
+      <link>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</link>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
+      <description>BlogTryHackMe, Write-Up, CTFHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
+ViewViews
+Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours. If anyone is interested in knowing how to create a TryHackMe room, please comment down.</description>
+    </item>
+    
+  </channel>
+</rss>

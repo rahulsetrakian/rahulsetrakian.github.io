@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Rahul Setrakian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2023 08:32:49 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jul 2023 13:01:24 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTF</title>
+      <link>https://rahulsetrakian.org/tags/ctf/</link>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TryHackMe</title>
+      <link>https://rahulsetrakian.org/tags/tryhackme/</link>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Write-Up</title>
+      <link>https://rahulsetrakian.org/tags/write-up/</link>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/tags/write-up/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Encryption</title>
       <link>https://rahulsetrakian.org/tags/encryption/</link>

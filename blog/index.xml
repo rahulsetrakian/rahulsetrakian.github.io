@@ -6,7 +6,18 @@
     <description>Recent content in Blog on Rahul Setrakian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2023 08:32:49 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jul 2023 13:01:24 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harry Potter – CTF Walkthrough</title>
+      <link>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</link>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
+      <description>BlogTryHackMe, Write-Up, CTFHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
+ViewViews
+Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours. If anyone is interested in knowing how to create a TryHackMe room, please comment down.</description>
+    </item>
+    
     <item>
       <title>India&#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech</title>
       <link>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</link>
