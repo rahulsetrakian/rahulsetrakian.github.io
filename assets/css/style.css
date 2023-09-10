@@ -563,7 +563,7 @@ img, video {
 @media only screen and (min-width: 48rem) {
 	.menu {
 		position: relative;
-		top: 0;
+		top: 5px;
 		width: auto;
 		height: auto;
 		padding: 0rem;
@@ -2107,7 +2107,24 @@ textarea {
 		height: 120px;
 		border-radius: 12%;
 	}
-
+	.pto-main .pto-card .pto-content p {
+        font-size: 0.8rem;
+		text-align: justify;
+    	line-break: anywhere;
+		margin-bottom: 14px;
+    }
+	.pto-main .pto-card .pto-content a{
+		padding: 8px 14px;
+	}
+	.brand {
+		font-size: 1.2rem;
+	}
+	.burger-line{
+		width: 40%;
+	}
+	.menu-block{
+		padding: 0.4rem 1rem;
+	}
 }
 
 /*        CONTACT PAGE        */
@@ -2410,9 +2427,12 @@ textarea {
 }
 
 .profile-card img {
-  width: 8rem;
+  width: 12rem;
+  height: 100%;
   min-width: 80px;
   box-shadow: 0 0 0 5px #FFF;
+  background-image: url('/assets/img/circle.jpg');
+  background-size: cover;
 }
 
 .infos {
@@ -2530,6 +2550,11 @@ textarea {
 	.article article header .lower-header .title {
 		font-size: 2rem;
 		}
+}
+@media (max-width: 880px){
+	.profile-card img {
+		display: none;
+	}
 }
 @media (max-width: 780px){
 	.article article header .lower-header .subtitle {

@@ -36,7 +36,6 @@
     font-weight: bold;
 } 
 #featured .header-container form {
-    display: flex;
     align-items: center;
 }
 #featured .header-container form input {
@@ -54,7 +53,7 @@
 
 
 #featured .header-container form button {
-    width: 50px;
+    width: 45px;
     height: 50px;
     border: none;
     border-radius: 100%;
@@ -73,8 +72,8 @@
 }
 #featured .header-container form button i {
   color: white;
-  font-size: 24px;
-  margin-top: 4px;
+  font-weight: 900;
+  font-size: large;
 }
 
 .special-text {
@@ -93,14 +92,6 @@
 #search .pagefind-ui .pagefind-ui__form .pagefind-ui__search-input {
   transition: 0.3s ease;
 }
-#search .pagefind-ui .pagefind-ui__form .pagefind-ui__search-input:focus {
-  
-}
-
-#search .pagefind-ui .pagefind-ui__form .pagefind-ui .pagefind-ui__drawer{
-
-}
-
 
 
 
@@ -210,7 +201,6 @@
 .blg-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .blg-card{
@@ -395,12 +385,77 @@
 
 
 
+.pagefind-ui__drawer {
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.pagefind-ui__results-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagefind-ui__message {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.pagefind-ui__results {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.pagefind-ui__result {
+  background-color: #0c0f13;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 
 
+.pagefind-ui__result-image {
+  width: 500px;
+  height: 250px;
+}
 
+.pagefind-ui__result-inner {
+  flex: 2;
+  padding-left: 1rem;
+}
 
+.pagefind-ui__result-title, .pagefind-ui__result-excerpt {
+  color: #fff;
+}
 
+.pagefind-ui__result-link {
+  color: var(--clr-1);
+  text-decoration: none;
+}
+.pagefind-ui__result-link:hover {
+  color: #9ce8ff;
+}
+@media (max-width: 768px) {
+  .pagefind-ui__result {
+      flex-direction: column;
+  }
 
+  .pagefind-ui__result-thumb, .pagefind-ui__result-inner {
+      flex: none;
+  }
+
+  .pagefind-ui__result-inner {
+      padding-left: 0;
+      padding-top: 1rem;
+  }
+}
 
 
 
