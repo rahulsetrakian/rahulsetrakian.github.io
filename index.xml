@@ -1,162 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Rahul Setrakian</title>
+    <title>Rahul Setrakian</title>
     <link>https://rahulsetrakian.org/</link>
-    <description>Recent content in Home on Rahul Setrakian</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2023 13:01:24 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hi, my name is Rahul Setrakian. I&#39;m a self-taught programmer with a passion for cybersecurity and innovation. Join me on this exciting journey!</description>
+    <pubDate>Sun, 17 Sep 2023 15:01:23 &#43;0530</pubDate>
+    <generator>Hugo</generator>
+    <atom:link href="https://rahulsetrakian.org/" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Harry Potter – CTF Walkthrough</title>
       <link>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</link>
-      <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
+      <pubDate>Tue, 25 Jul 2023 13:01:24 &#43;0530</pubDate>
       <description>BlogTryHackMe, Write-Up, CTFHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
 ViewViews
 Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours. If anyone is interested in knowing how to create a TryHackMe room, please comment down.</description>
+      <enclosure url="/post/harry.jpg" type="application/octet-stream" length="15" />
+      
     </item>
     
     <item>
       <title>India&#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech</title>
       <link>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</link>
-      <pubDate>Tue, 27 Jun 2023 08:32:49 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</guid>
+      <pubDate>Tue, 27 Jun 2023 08:32:49 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionIndia&amp;#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech India&amp;#39;s ban on encrypted messaging apps undermines privacy and free speech, setting a dangerous precedent for democracy and citizens&amp;#39; rights. Reading TimeMins
 ViewViews
 Publish DateJune 27, 2023India&amp;rsquo;s Ban on Encrypted Messaging Apps “Privacy is not a privilege, it is a fundamental right.” - Edward Snowden
 In a shocking move, India, once hailed as the world&amp;rsquo;s largest democracy, has taken a giant leap towards eroding privacy and stifling free speech by banning encrypted messaging apps on a massive scale.</description>
+      <enclosure url="/post/post-2.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
       <link>https://rahulsetrakian.org/blog/test2/</link>
-      <pubDate>Sun, 25 Jun 2023 08:35:50 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test2/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test2/</guid>
+      <pubDate>Sun, 25 Jun 2023 08:35:50 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 25, 2023Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+      <enclosure url="/post/post-1.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test3/</link>
-      <pubDate>Thu, 22 Jun 2023 08:35:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test3/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test3/</guid>
+      <pubDate>Thu, 22 Jun 2023 08:35:53 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 22, 2023Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-2.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test6/</link>
-      <pubDate>Mon, 28 Jun 2021 11:36:07 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test6/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test6/</guid>
+      <pubDate>Mon, 28 Jun 2021 11:36:07 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 28, 2021Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-1.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test4/</link>
-      <pubDate>Sun, 27 Jun 2021 08:35:56 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test4/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test4/</guid>
+      <pubDate>Sun, 27 Jun 2021 08:35:56 &#43;0530</pubDate>
       <description>BlogPrivacy, Free SpeechLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 27, 2021Heading 1 TagsPrivacyFree SpeechShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-1.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test8/</link>
-      <pubDate>Sun, 28 Jun 2020 11:36:15 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test8/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test8/</guid>
+      <pubDate>Sun, 28 Jun 2020 11:36:15 &#43;0530</pubDate>
       <description>BlogPrivacy, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 28, 2020Heading 1 TagsPrivacyEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-1.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test7/</link>
-      <pubDate>Sun, 28 Jun 2020 11:36:13 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test7/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test7/</guid>
+      <pubDate>Sun, 28 Jun 2020 11:36:13 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-2.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test5-copy/</link>
-      <pubDate>Sun, 28 Jun 2020 08:44:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test5-copy/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test5-copy/</guid>
+      <pubDate>Sun, 28 Jun 2020 08:44:53 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
+      <enclosure url="/post/post-2.jpg" type="application/octet-stream" length="16" />
+      
     </item>
     
     <item>
       <title>Lorem ipsum dolor sit amet</title>
       <link>https://rahulsetrakian.org/blog/test5/</link>
-      <pubDate>Sun, 28 Jun 2020 08:44:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test5/</guid>
+      <guid isPermaLink="true">https://rahulsetrakian.org/blog/test5/</guid>
+      <pubDate>Sun, 28 Jun 2020 08:44:53 &#43;0530</pubDate>
       <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
 ViewViews
 Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://rahulsetrakian.org/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <enclosure url="/post/post-2.jpg" type="application/octet-stream" length="16" />
       
-      <guid>https://rahulsetrakian.org/about/</guid>
-      <description>ABOUTWelcome to my About page.
-IntroductionWelcome to my portfolio! My name is Rahul Setrakian, and I am a versatile professional specializing in web development, software development (primarily Python), network administration, content creation, digital marketing, and basic cybersecurity. With a passion for programming and a drive for continuous learning, I bring a diverse set of skills and expertise to the table. Throughout my career, I have had the opportunity to work on various projects and collaborate with clients from different industries.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://rahulsetrakian.org/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rahulsetrakian.org/contact/</guid>
-      <description>CONTACTGet in touch with me.
-ContactIf you have any questions or inquiries, feel free to reach out to me:
-Work HoursMonday - Saturday
-9:00 AM - 5:00 PMContact InfoTelegram: @anonymouscharonEmail:rahulsetrakian@gmail.com Message MeSend MessageSocial Media</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://rahulsetrakian.org/portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rahulsetrakian.org/portfolio/</guid>
-      <description>PORTFOLIOCheck out my amazing portfolio.
-Portfolio×Visitspace NoName BotCreated Python Telegram bot using python-telegram-bot module for seamless communication on Telegram platform.Read More Bluecity CabCrafted BlueCity Cab website with the power of Tailwind CSS, delivering a sleek and modern design for an enhanced user experience.Read More HarryPotter CTFDeveloped HarryPotter-themed CTF (Capture The Flag) challenge, immersing participants in the magical world of Harry Potter while testing their skills.</description>
-    </item>
-    
-    <item>
-      <title>Thank You for Submission</title>
-      <link>https://rahulsetrakian.org/thank-you/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rahulsetrakian.org/thank-you/</guid>
-      <description>Thank You for SubmissionThanks for reaching out. I&amp;#39;ll respond as soon as possible.</description>
     </item>
     
   </channel>
