@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /thank-you/
+Sitemap: https://rahulsetrakian.org/sitemap.xml

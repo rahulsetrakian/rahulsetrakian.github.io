@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Rahul Setrakian</title>
+    <title>My Blog: Exploring Tech Landscapes on Rahul Setrakian</title>
     <link>https://rahulsetrakian.org/blog/</link>
-    <description>Recent content in Blog on Rahul Setrakian</description>
+    <description>Recent content in My Blog: Exploring Tech Landscapes on Rahul Setrakian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jul 2023 13:01:24 +0530</lastBuildDate><atom:link href="https://rahulsetrakian.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Sep 2023 11:14:52 +0000</lastBuildDate><atom:link href="https://rahulsetrakian.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importance of Two-Factor Authentication in Online Security</title>
+      <link>https://rahulsetrakian.org/blog/importance-factor-authentication-online-security/</link>
+      <pubDate>Sun, 17 Sep 2023 11:14:52 +0000</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/importance-factor-authentication-online-security/</guid>
+      <description>BlogTwo-Factor Authentication, Cybersecurity, Authentication MethodsImportance of Two-Factor Authentication in Online Security With a thorough understanding of 2FA, you can better safeguard your digital presence and mitigate the risks associated with unauthorized access &amp;amp; data breaches. Reading TimeMins
+ViewViews
+Publish DateSeptember 17, 20231. Introduction to Two-Factor Authentication In today&amp;rsquo;s digital landscape, the security of our online accounts and personal information is of paramount importance. With the increasing prevalence of cyber threats and data breaches, it has become essential to implement robust security measures to protect ourselves and our sensitive data.</description>
+    </item>
+    
+    <item>
+      <title>Cryptojacking: What It Is and How to Prevent It</title>
+      <link>https://rahulsetrakian.org/blog/cryptojacking-prevent/</link>
+      <pubDate>Tue, 12 Sep 2023 11:48:36 +0000</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/cryptojacking-prevent/</guid>
+      <description>BlogCryptojacking, Cryptocurrency Security, MalwareCryptojacking: What It Is and How to Prevent It In this article, you can learn to enhance the security of your cryptocurrency wallet and mitigate the risk of falling victim to cryptojacking attacks. Reading TimeMins
+ViewViews
+Publish DateSeptember 12, 20231. Introduction to cryptocurrency wallets and cryptojacking attacks Cryptocurrency wallets have become an essential tool for securely storing and managing digital assets.</description>
+    </item>
+    
+    <item>
+      <title>Differences Between Front-End &amp; Back-End Development</title>
+      <link>https://rahulsetrakian.org/blog/exploring-differences-front-development/</link>
+      <pubDate>Tue, 05 Sep 2023 12:21:16 +0000</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/exploring-differences-front-development/</guid>
+      <description>BlogFront-End Development, Back-End Development, Web Development RolesDifferences Between Front-End &amp;amp; Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. Reading TimeMins
+ViewViews
+Publish DateSeptember 5, 20231. Introduction to Front-End and Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. While both contribute to the seamless functioning of websites and web applications, they involve distinct sets of skills, technologies, and responsibilities.</description>
+    </item>
+    
     <item>
       <title>Harry Potter – CTF Walkthrough</title>
       <link>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</link>
       <pubDate>Tue, 25 Jul 2023 13:01:24 +0530</pubDate>
       
       <guid>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
-      <description>BlogTryHackMe, Write-Up, CTFHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
+      <description>BlogTryHackMe, Write-Up, Capture The FlagHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
 ViewViews
-Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours. If anyone is interested in knowing how to create a TryHackMe room, please comment down.</description>
+Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours.</description>
     </item>
     
     <item>
@@ -28,94 +61,6 @@ Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official 
 ViewViews
 Publish DateJune 27, 2023India&amp;rsquo;s Ban on Encrypted Messaging Apps “Privacy is not a privilege, it is a fundamental right.” - Edward Snowden
 In a shocking move, India, once hailed as the world&amp;rsquo;s largest democracy, has taken a giant leap towards eroding privacy and stifling free speech by banning encrypted messaging apps on a massive scale.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
-      <link>https://rahulsetrakian.org/blog/test2/</link>
-      <pubDate>Sun, 25 Jun 2023 08:35:50 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test2/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 25, 2023Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test3/</link>
-      <pubDate>Thu, 22 Jun 2023 08:35:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test3/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 22, 2023Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test6/</link>
-      <pubDate>Mon, 28 Jun 2021 11:36:07 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test6/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 28, 2021Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test4/</link>
-      <pubDate>Sun, 27 Jun 2021 08:35:56 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test4/</guid>
-      <description>BlogPrivacy, Free SpeechLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 27, 2021Heading 1 TagsPrivacyFree SpeechShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test8/</link>
-      <pubDate>Sun, 28 Jun 2020 11:36:15 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test8/</guid>
-      <description>BlogPrivacy, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 28, 2020Heading 1 TagsPrivacyEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test7/</link>
-      <pubDate>Sun, 28 Jun 2020 11:36:13 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test7/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test5-copy/</link>
-      <pubDate>Sun, 28 Jun 2020 08:44:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test5-copy/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
-    </item>
-    
-    <item>
-      <title>Lorem ipsum dolor sit amet</title>
-      <link>https://rahulsetrakian.org/blog/test5/</link>
-      <pubDate>Sun, 28 Jun 2020 08:44:53 +0530</pubDate>
-      
-      <guid>https://rahulsetrakian.org/blog/test5/</guid>
-      <description>BlogPrivacy, Free Speech, EncryptionLorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula. Reading TimeMins
-ViewViews
-Publish DateJune 28, 2020Heading 1 TagsPrivacyFree SpeechEncryptionShare This PostLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec pretium mauris. Donec pharetra, nulla a vulputate ultrices, odio odio dictum ligula.</description>
     </item>
     
   </channel>

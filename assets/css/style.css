@@ -2307,6 +2307,13 @@ textarea {
 	margin-bottom: 0;
 }
 
+.article-post .main-article ul li {
+	list-style: circle;
+	margin-left: 44px;
+}
+
+
+
 
 .article-post .main-article .gallery {
 	display: grid;

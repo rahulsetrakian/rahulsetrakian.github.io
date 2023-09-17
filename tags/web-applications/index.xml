@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Applications on Rahul Setrakian</title>
+    <link>https://rahulsetrakian.org/tags/web-applications/</link>
+    <description>Recent content in Web Applications on Rahul Setrakian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Sep 2023 12:21:16 +0000</lastBuildDate><atom:link href="https://rahulsetrakian.org/tags/web-applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Differences Between Front-End &amp; Back-End Development</title>
+      <link>https://rahulsetrakian.org/blog/exploring-differences-front-development/</link>
+      <pubDate>Tue, 05 Sep 2023 12:21:16 +0000</pubDate>
+      
+      <guid>https://rahulsetrakian.org/blog/exploring-differences-front-development/</guid>
+      <description>BlogFront-End Development, Back-End Development, Web Development RolesDifferences Between Front-End &amp;amp; Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. Reading TimeMins
+ViewViews
+Publish DateSeptember 5, 20231. Introduction to Front-End and Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. While both contribute to the seamless functioning of websites and web applications, they involve distinct sets of skills, technologies, and responsibilities.</description>
+    </item>
+    
+  </channel>
+</rss>
