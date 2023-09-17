@@ -532,7 +532,7 @@
 }
 @media (max-width: 540px) {
     #featured .header-container form input {
-        width: 100%;
+        width: 90%;
     }
 }
 @media (max-width: 480px) {
