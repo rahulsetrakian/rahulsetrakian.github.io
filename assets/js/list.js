@@ -1,6 +1,6 @@
 window.onload = function() {
   const searchInput = document.getElementById("search-bar");
-  const iconElement = document.querySelector(".bx-search");
+  const iconElement = document.querySelector(".bi-search");
 
   if (searchInput && iconElement) {
     // Function to change the icon class with a transition
@@ -9,8 +9,8 @@ window.onload = function() {
       iconElement.classList.add("transition-class");
 
       // Change the icon class
-      iconElement.classList.remove("bx-search");
-      iconElement.classList.add("bx-x");
+      iconElement.classList.remove("bi-search");
+      iconElement.classList.add("bi-x-lg");
 
       // Remove the transition class after a delay (adjust duration as needed)
       setTimeout(() => {
@@ -24,8 +24,8 @@ window.onload = function() {
       iconElement.classList.add("transition-class");
 
       // Revert the icon class
-      iconElement.classList.remove("bx-x");
-      iconElement.classList.add("bx-search");
+      iconElement.classList.remove("bi-x-lg");
+      iconElement.classList.add("bi-search");
 
       // Remove the transition class after a delay (adjust duration as needed)
       setTimeout(() => {

@@ -2045,7 +2045,7 @@
           g(r, "placeholder", (s = t[16]("placeholder"))),
           g(i, "class", "pagefind-ui__search-clear svelte-1bkqzc5"),
           g(i, "id", "search_icon"),
-          g(z, "class", "bx bx-search"),
+          g(z, "class", "bi bi-search"),
           q(z, "pagefind-ui__suppressed", !t[5]),
           g(a, "class", "pagefind-ui__drawer svelte-1bkqzc5"),
           q(a, "pagefind-ui__hidden", !t[12]),
