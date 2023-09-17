@@ -468,7 +468,7 @@ img, video {
 
  .banner-links > * {
 	 font-size: 1.25rem;
-	 line-height: 1.25;
+	 line-height: 1.75;
 	 color: #b3b3b3;
 }
 
@@ -1463,7 +1463,7 @@ textarea {
   }
   .social-icon a {
 	color: #b3b3b3;
-	margin-left: 6px;
+	margin-left: 20px;
 	font-size: 24px;
   }
 
@@ -1477,6 +1477,9 @@ textarea {
 	.rightside h2{
 		margin-top: 13px;
 	}
+	.social-icon a {
+		margin-left: 6px;
+	  }
 }
 
 
@@ -2500,8 +2503,8 @@ textarea {
   }
 .share-button {
 	display: inline-block;
-	margin-right: 15px;
-	font-size: 32px;
+	margin-right: 26px;
+	font-size: 28px;
 	color: white;
   }
 .share-button:hover {
