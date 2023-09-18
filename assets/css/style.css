@@ -470,10 +470,11 @@ img, video {
 	 font-size: 1.25rem;
 	 line-height: 1.75;
 	 color: #b3b3b3;
+	 transition: 0.3s ease-in-out;
 }
 
 .banner-links > *:hover {
-	color: var(--color-white-100);
+	color: var(--color-blue-600); 
 }
 
  .banner-links::before {
@@ -1431,9 +1432,10 @@ textarea {
   }
   .leftside a{
 	color: var(--color-white-100);
+	transition: 0.3s ease-in-out;
   }
   .leftside a:hover{
-	color: #b3b3b3;
+	color: var(--color-blue-600); 
   }
   .center{
 	flex-grow: 1;
@@ -1465,10 +1467,11 @@ textarea {
 	color: #b3b3b3;
 	margin-left: 20px;
 	font-size: 24px;
+	transition: 0.3s ease-in-out;
   }
 
   .social-icon > *:hover {
-	color: var(--color-white-100); /* Update with the desired hover color */
+	color: var(--color-blue-600); /* Update with the desired hover color */
 }
 
 /* RESPONSIVE DESIGN */
