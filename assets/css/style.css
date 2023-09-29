@@ -1514,6 +1514,14 @@ textarea {
 	margin-bottom:1rem;
 	font-size:2rem;
   }
+.intro-para a {
+	color: var(--color-blue-600);
+	transition: 0.3s ease-in-out;
+}
+.intro-para a:hover {
+	color: #b3b3b3;
+}
+
   
 .intro-title{
 	font-family: inherit;
