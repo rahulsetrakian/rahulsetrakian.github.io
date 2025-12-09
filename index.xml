@@ -1,86 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Rahul Setrakian</title>
-    <link>https://rahulsetrakian.org/</link>
-    <description>Hi, my name is Rahul Setrakian. I&#39;m a self-taught programmer with a passion for cybersecurity and innovation. Join me on this exciting journey!</description>
-    <pubDate>Sun, 12 Nov 2023 13:20:14 &#43;0530</pubDate>
-    <generator>Hugo</generator>
-    <atom:link href="https://rahulsetrakian.org/" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>NoName Bot Telegram: A New Era of Enhanced User Experience </title>
-      <link>https://rahulsetrakian.org/blog/noname-bot-telegram-era-enhanced-user-experience/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/noname-bot-telegram-era-enhanced-user-experience/</guid>
-      <pubDate>Sun, 12 Nov 2023 07:39:32 &#43;0000</pubDate>
-      <description>BlogNoName Bot, Telegram, Telegram BotsNoName Bot Telegram: A New Era of Enhanced User Experience Discover the latest updates to the NoName Bot Telegram, featuring a revamped user interface, new resources, and faster speed for an improved user experience. Reading TimeMins
-ViewViews
-Publish DateNovember 12, 20231. Introduction: The Evolution of NoName Bot Telegram NoName Bot Telegram, a popular bot on the Telegram messaging platform, has recently undergone a significant transformation.</description>
-      <enclosure length="34" type="image/jpeg" url="https://rahulsetrakian.org/post/Create-a-Telegram-Bot-1.webp"/>
-      
-    </item>
-    
-    <item>
-      <title>Importance of Two-Factor Authentication in Online Security</title>
-      <link>https://rahulsetrakian.org/blog/importance-factor-authentication-online-security/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/importance-factor-authentication-online-security/</guid>
-      <pubDate>Sun, 17 Sep 2023 11:14:52 &#43;0000</pubDate>
-      <description>BlogTwo-Factor Authentication, Cybersecurity, AuthenticationImportance of Two-Factor Authentication in Online Security With a thorough understanding of 2FA, you can better safeguard your digital presence and mitigate the risks associated with unauthorized access &amp;amp; data breaches. Reading TimeMins
-ViewViews
-Publish DateSeptember 17, 20231. Introduction to Two-Factor Authentication In today&amp;rsquo;s digital landscape, the security of our online accounts and personal information is of paramount importance. With the increasing prevalence of cyber threats and data breaches, it has become essential to implement robust security measures to protect ourselves and our sensitive data.</description>
-      <enclosure length="38" type="image/jpeg" url="https://rahulsetrakian.org/assets/img/shutterstock_641960737.jpg"/>
-      
-    </item>
-    
-    <item>
-      <title>Cryptojacking: What It Is and How to Prevent It</title>
-      <link>https://rahulsetrakian.org/blog/cryptojacking-prevent/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/cryptojacking-prevent/</guid>
-      <pubDate>Tue, 12 Sep 2023 11:48:36 &#43;0000</pubDate>
-      <description>BlogCryptojacking, Cryptocurrency Security, MalwareCryptojacking: What It Is and How to Prevent It In this article, you can learn to enhance the security of your cryptocurrency wallet and mitigate the risk of falling victim to cryptojacking attacks. Reading TimeMins
-ViewViews
-Publish DateSeptember 12, 20231. Introduction to cryptocurrency wallets and cryptojacking attacks Cryptocurrency wallets have become an essential tool for securely storing and managing digital assets.</description>
-      <enclosure length="43" type="image/jpeg" url="https://rahulsetrakian.org/assets/img/Bitcoin-Clipboard-Hijacker.webp"/>
-      
-    </item>
-    
-    <item>
-      <title>Differences Between Front-End &amp; Back-End Development</title>
-      <link>https://rahulsetrakian.org/blog/exploring-differences-front-development/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/exploring-differences-front-development/</guid>
-      <pubDate>Tue, 05 Sep 2023 12:21:16 &#43;0000</pubDate>
-      <description>BlogFront-End Development, Back-End Development, Web Development RolesDifferences Between Front-End &amp;amp; Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. Reading TimeMins
-ViewViews
-Publish DateSeptember 5, 20231. Introduction to Front-End and Back-End Development Front-end and back-end development are two essential components that collectively power the web applications we interact with every day. While both contribute to the seamless functioning of websites and web applications, they involve distinct sets of skills, technologies, and responsibilities.</description>
-      <enclosure length="43" type="image/jpeg" url="https://rahulsetrakian.org/assets/img/Front-end-vs-Back-end-copy.webp"/>
-      
-    </item>
-    
-    <item>
-      <title>Harry Potter – CTF Walkthrough</title>
-      <link>https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/harry-potter-ctf-walkthrough/</guid>
-      <pubDate>Tue, 25 Jul 2023 13:01:24 &#43;0530</pubDate>
-      <description>BlogTryHackMe, Write-Up, Capture The FlagHarry Potter – CTF Walkthrough Harry Potter CTF walkthrough, This is the official write-up, and I will guide you through the whole process step by step. Reading TimeMins
-ViewViews
-Publish DateJuly 25, 2023CTF Walkthrough Hello there, welcome to the official write-up of Harry Potter – CTF. I created this room for fun. I made this room in a few hours.</description>
-      <enclosure length="15" type="image/jpeg" url="https://rahulsetrakian.org/post/harry.jpg"/>
-      
-    </item>
-    
-    <item>
-      <title>India&#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech</title>
-      <link>https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</link>
-      <guid isPermaLink="true">https://rahulsetrakian.org/blog/indias-ban-on-encrypted-messaging-apps-a-disturbing-assault-on-privacy-and-free-speech/</guid>
-      <pubDate>Tue, 27 Jun 2023 08:32:49 &#43;0530</pubDate>
-      <description>BlogPrivacy, Free Speech, EncryptionIndia&amp;#39;s Ban on Encrypted Messaging Apps: A Disturbing Assault on Privacy and Free Speech India&amp;#39;s ban on encrypted messaging apps undermines privacy and free speech, setting a dangerous precedent for democracy and citizens&amp;#39; rights. Reading TimeMins
-ViewViews
-Publish DateJune 27, 2023India&amp;rsquo;s Ban on Encrypted Messaging Apps “Privacy is not a privilege, it is a fundamental right.” - Edward Snowden
-In a shocking move, India, once hailed as the world&amp;rsquo;s largest democracy, has taken a giant leap towards eroding privacy and stifling free speech by banning encrypted messaging apps on a massive scale.</description>
-      <enclosure length="16" type="image/jpeg" url="https://rahulsetrakian.org/post/post-2.jpg"/>
-      
-    </item>
-    
-  </channel>
-</rss>

@@ -1,0 +1,291 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import ProjectCard from '@/components/ProjectCard.astro'
+import Layout from '@/layouts/Layout.astro'
+import { getAllProjects } from '@/lib/data-utils'
+import { buttonVariants } from '@/components/ui/button'
+
+const projects = await getAllProjects()
+---
+
+<Layout class="max-w-3xl">
+  <PageHead slot="head" title="About" />
+  <Breadcrumbs items={[{ label: 'About', icon: 'lucide:info' }]} />
+
+   <section>
+    <div class="min-w-full">
+      {/* only the text stays in prose */}
+      <div class="prose mb-6">
+        <p class="mt-0">
+          An autodidact programmer obsessed with cybersecurity — studying systems,
+          vulnerabilities, and exploring artificial intelligence. I use this place
+          to publish CTF writeups, document projects, and share notes from my ongoing
+          hands-on learning journey.
+        </p>
+
+        <p>
+          My focus areas include linux, networking, ethical hacking, Python
+          automation, and practical security research. Most of what I learn is
+          distilled into clear walkthroughs and tools that others can experiment
+          with themselves.
+        </p>
+
+        <p>
+          I also share tutorials and demonstrations on <Link
+            href="https://www.youtube.com"
+            external
+            underline
+          >YouTube</Link>, where I break down cybersecurity concepts into practical,
+          beginner-friendly lessons.
+        </p>
+
+        <p>
+          You can follow my ongoing progress and CTF activity across the platforms
+          below:
+        </p>
+
+        {/* profiles list */}
+        <ul class="list-disc list-inside space-y-1 text-left">
+          <li>
+            <a
+              href="https://www.credly.com/users/rahuljoriya"
+              target="_blank"
+              rel="noreferrer"
+              class="text-foreground underline-offset-4 hover:underline"
+            >
+              Credly – Certifications Profile
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://tryhackme.com/p/skipper.sh"
+              target="_blank"
+              rel="noreferrer"
+              class="text-foreground underline-offset-4 hover:underline"
+            >
+              TryHackMe – skipper.sh
+            </a>
+      
+          <li>
+            <a
+              href="https://ctftime.org/user/245301"
+              target="_blank"
+              rel="noreferrer"
+              class="text-foreground underline-offset-4 hover:underline"
+            >
+              CTFtime – skipper.sh
+            </a>
+          </li>
+
+            </li>
+          <li>
+            <a
+              href="https://app.hackthebox.com/profile/818581"
+              target="_blank"
+              rel="noreferrer"
+              class="text-foreground underline-offset-4 hover:underline"
+            >
+              Hack The Box – RealSkipper
+            </a>
+          </li>
+        </ul>
+
+        <p>
+          This site serves as a growing knowledge log — everything shared here is
+          something I’ve tested, practiced, or actively studied.
+        </p>
+      </div>
+
+
+      {/* buttons under the text, left aligned */}
+      <div class="mt-4 flex flex-wrap gap-3 justify-start">
+        <Link
+          href="../resume.pdf"
+          class={buttonVariants({ variant: 'outline' })}
+        >
+          Download résumé
+        </Link>
+
+        <button
+          type="button"
+          class={buttonVariants({ variant: 'ghost' })}
+          data-toggle-certificates
+        >
+          Show certifications &amp; profiles
+        </button>
+      </div>
+
+      {/* links + badges panel, all left-aligned */}
+      <div
+        id="certificates"
+        class="mt-6 space-y-4 rounded-lg border p-4 text-sm text-muted-foreground hidden"
+      >
+
+        {/* CTF stats */}
+        <div class="space-y-2 text-left">
+          <p class="text-foreground font-medium">
+            CTF Stats
+          </p>
+          <a
+            href="https://tryhackme.com/p/skipper.sh"
+            target="_blank"
+            rel="noreferrer"
+            class="inline-block"
+          >
+            <img
+              src="https://tryhackme-badges.s3.amazonaws.com/skipper.sh.png"
+              alt="TryHackMe badge for skipper.sh"
+              class="max-h-20 rounded-md"
+              loading="lazy"
+            />
+          </a>
+        </div>
+
+        {/* Certifications */}
+        <div class="space-y-2 text-left">
+          <p class="text-foreground font-medium">
+            Certifications
+          </p>
+          <img
+            src="/certificates/0001.jpg"
+            alt="CC Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               ISC2 — ISC2's Certified in Cybersecurity (CC)
+          </p>
+          <img
+            src="/certificates/0002.jpg"
+            alt="Cyber Security Internship Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               Edunet Foundation — Cyber Security Internship
+          </p>
+          <img
+            src="/certificates/0003.jpg"
+            alt="U.S. Council Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               U.S. Council — Cybersecurity Professional
+          </p>
+            <img
+            src="/certificates/0004.jpg"
+            alt="U.S. Council Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               U.S. Council — Cybersecurity Associate (SOC Analyst)
+          </p>
+            <img
+            src="/certificates/0005.jpg"
+            alt="Oracle University Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               Oracle University — OCI Foundation Associate
+          </p>
+            <img
+            src="/certificates/0006.jpg"
+            alt="Mastermind Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               Mastermind Certificate — ISO/IEC 27001:2022 Lead Auditor
+          </p>
+            <img
+            src="/certificates/0007.png"
+            alt="TCM Security Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               TCM Security Certificate — Linux 100: Foundational
+          </p>
+            <img
+            src="/certificates/0008.png"
+            alt="TCM Security Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               TCM Security Certificate — Programming 100: Foundational
+          </p>
+
+          <img
+            src="/certificates/0009.jpg"
+            alt="IBM SkillsBuild Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               IBM SkillsBuild Certificate — Cybersecurity Fundamentals
+          </p>
+
+          <img
+            src="/certificates/0010.jpg"
+            alt="HeroCTF Certificate"
+            class="w-full h-auto max-w-full rounded-md object-contain border"
+            loading="lazy"
+          />
+          <p class="italic text-xs">
+               HeroCTF Certificate — Certificate of Attendance
+          </p>
+
+        </div>
+        
+      </div>
+
+      <h2 class="mb-4 mt-8 text-2xl font-medium">My Projects Listing</h2>
+      <div class="flex flex-col gap-4">
+        {projects.map((project) => <ProjectCard project={project} />)}
+      </div>
+    </div>
+  </section>
+
+
+<script>
+  const initCertificatesToggle = () => {
+    // Tell TypeScript this is an HTMLButtonElement
+    const btn = document.querySelector<HTMLButtonElement>('[data-toggle-certificates]');
+    const panel = document.getElementById('certificates');
+
+    if (!btn || !panel) return;
+
+    // Avoid double-binding when Astro swaps pages
+    if (btn.dataset.initialized === 'true') return;
+    btn.dataset.initialized = 'true';
+
+    let open = false;
+
+    const setLabel = () => {
+      btn.textContent = open
+        ? 'Hide certifications & profiles'
+        : 'Show certifications & profiles';
+    };
+
+    setLabel();
+
+    btn.addEventListener('click', () => {
+      open = !open;
+      panel.classList.toggle('hidden', !open);
+      setLabel();
+    });
+  };
+
+  // Run on first load and on client-side navigations
+  document.addEventListener('astro:page-load', initCertificatesToggle);
+  document.addEventListener('astro:after-swap', initCertificatesToggle);
+</script>
+
+
+</Layout>
