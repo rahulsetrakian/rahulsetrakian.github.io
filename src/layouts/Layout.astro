@@ -39,5 +39,38 @@ const { class: className } = Astro.props
     </main>
     <Footer />
 
+
+    <script is:inline>
+  const getGiscusTheme = () =>
+    document.documentElement.dataset.theme === "dark"
+      ? "dark"
+      : "light";
+
+  const updateGiscusTheme = () => {
+    const iframe = document.querySelector("iframe.giscus-frame");
+    if (!iframe) return;
+
+    iframe.contentWindow.postMessage(
+      {
+        giscus: {
+          setConfig: { theme: getGiscusTheme() },
+        },
+      },
+      "https://giscus.app"
+    );
+  };
+
+  // Watch Erudite theme changes
+  new MutationObserver(updateGiscusTheme).observe(
+    document.documentElement,
+    { attributes: true, attributeFilter: ["data-theme"] }
+  );
+
+  // Initial sync
+  window.addEventListener("load", updateGiscusTheme);
+</script>
+
+
+
   </body>
 </html>
