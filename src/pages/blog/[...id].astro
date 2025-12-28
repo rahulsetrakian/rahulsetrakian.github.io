@@ -1,7 +1,7 @@
 ---
 import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import Link from '@/components/Link.astro'
-
+import Giscus from "@/components/Giscus.astro";
 
 import PostHead from '@/components/PostHead.astro'
 import PostNavigation from '@/components/PostNavigation.astro'
@@ -251,6 +251,8 @@ const tocSections = await getTOCSections(currentPostId)
 
 
 
+
+
     {
       (hasChildPosts || isCurrentSubpost) && (
         <SubpostsSidebar
@@ -282,6 +284,16 @@ const tocSections = await getTOCSections(currentPostId)
       class="mx-auto size-4 transition-all group-hover:-translate-y-0.5"
     />
   </Button>
+
+
+<div class="col-start-2">
+  <div class="mx-auto w-full max-w-[calc(var(--breakpoint-md)-2rem)]">
+    <Giscus />
+  </div>
+</div>
+
+
+
 
   <script>
     document.addEventListener('astro:page-load', () => {
