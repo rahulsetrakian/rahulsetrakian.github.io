@@ -10,22 +10,23 @@
     "preview": "astro preview",
     "astro": "astro",
     "prettier": "prettier --write **/*.{ts,tsx,css,astro} --ignore-path .gitignore",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "dev:all": "concurrently \"astro dev\" \"npx decap-server\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/markdown-remark": "^6.3.10",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/react": "^4.4.2",
-    "@astrojs/rss": "^4.0.14",
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
     "@expressive-code/plugin-collapsible-sections": "^0.40.2",
     "@expressive-code/plugin-line-numbers": "^0.40.2",
     "@iconify-json/lucide": "^1.2.26",
     "@tailwindcss/vite": "^4.0.7",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
-    "astro": "^5.16.6",
+    "astro": "^5.16.11",
     "astro-expressive-code": "^0.40.2",
     "astro-icon": "^1.1.5",
     "class-variance-authority": "^0.7.1",
@@ -46,6 +47,7 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "prettier": "^3.5.1",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-astro-organize-imports": "^0.4.11",
