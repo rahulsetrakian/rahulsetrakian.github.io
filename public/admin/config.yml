@@ -1,13 +1,15 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  repo: rahulsetrakian/rahulsetrakian.github.io
+  # Change this to "main" when merging to production
+  branch: feature/sveltia
 
 local_backend: true
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
-site_url: "http://localhost:1234"
+site_url: "https://rahulsetrakian.github.io"
 
 collections:
 
@@ -24,8 +26,8 @@ collections:
     path: "{{slug}}/index"    # physical file path inside the folder
 
     # store images next to the post file so `image: './image.png'` works
-    media_folder: ""
-    public_folder: ""
+    media_folder: "."
+    public_folder: "."
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -56,11 +58,13 @@ collections:
     extension: "mdx"
     identifier_field: "title"
     # Create subpost as: src/content/blog/<parentSlug>/<slug>.mdx
-    # The path uses the parentSlug field value - ensure it's entered correctly
-    slug: "{{fields.parentSlug}}/{{slug}}"
-    # store images next to the subpost file so `image: './image.png'` works
-    media_folder: ""
-    public_folder: ""
+    # Fixed for Sveltia: used path instead of slug for slashes
+    slug: "{{slug}}"
+    path: "{{fields.parentSlug}}/{{slug}}"
+    
+    media_folder: "."
+    public_folder: "."
+
     fields:
       - { label: "Parent Post Slug", name: "parentSlug", widget: "string", hint: "The folder name of the parent post (e.g., 'mobile-nav-and-subposts')", required: true }
       - { label: "Title", name: "title", widget: "string" }
@@ -93,9 +97,8 @@ collections:
     identifier_field: "name"
     slug: "{{slug}}"
     path: "{{slug}}"
-    # Store images in authors/images folder for reliable Astro image() helper resolution
-    media_folder: "images"
-    public_folder: "./images"
+    # media_folder: "./images"
+    # public_folder: "./images"
 
     fields:
       - { label: "Name", name: "name", widget: "string" }
@@ -117,14 +120,13 @@ collections:
     identifier_field: "name"
     slug: "{{slug}}"
     path: "{{slug}}"
-    # Store images in projects/images folder for reliable Astro image() helper resolution
-    media_folder: "images"
-    public_folder: "./images"
+    media_folder: "."
+    public_folder: "." 
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Image", name: "image", widget: "image" }
-      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Link", name: "link", widget: "string", required: false }
       - { label: "Start Date", name: "startDate", widget: "datetime", required: false }
       - { label: "End Date", name: "endDate", widget: "datetime", required: false }

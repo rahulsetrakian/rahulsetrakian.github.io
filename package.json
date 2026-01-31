@@ -5,13 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
+    "dev:all": "concurrently \"npm run dev\" \"npx decap-server\"",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "prettier": "prettier --write **/*.{ts,tsx,css,astro} --ignore-path .gitignore",
-    "postinstall": "patch-package",
-    "dev:all": "concurrently \"astro dev\" \"npx decap-server\""
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
@@ -26,12 +26,11 @@
     "@tailwindcss/vite": "^4.0.7",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
-    "astro": "^5.16.11",
+    "astro": "^5.17.1",
     "astro-expressive-code": "^0.40.2",
     "astro-icon": "^1.1.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "decap-cms": "^3.9.0",
     "lucide-react": "^0.469.0",
     "patch-package": "^8.0.0",
     "radix-ui": "^1.3.4",
@@ -47,11 +46,15 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
+    "baseline-browser-mapping": "^2.9.19",
     "concurrently": "^9.2.1",
     "prettier": "^3.5.1",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-astro-organize-imports": "^0.4.11",
     "prettier-plugin-tailwindcss": "^0.6.11"
+  },
+  "overrides": {
+    "lodash": "^4.17.23"
   },
   "prettier": {
     "semi": false,

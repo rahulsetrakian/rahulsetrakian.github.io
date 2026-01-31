@@ -113,11 +113,9 @@ const tocSections = await getTOCSections(currentPostId)
     {
       post.data.image &&
         (typeof post.data.image === 'string' ? (
-          <Image
+          <img
             src={post.data.image}
             alt={post.data.title}
-            width={1200}
-            height={630}
             class="col-span-full mx-auto w-full max-w-5xl object-cover"
           />
         ) : (
@@ -150,12 +148,12 @@ const tocSections = await getTOCSections(currentPostId)
                   <div class="flex items-center gap-x-1.5">
                     {author.avatar &&
                       (typeof author.avatar === 'string' ? (
-                        <Image
+                        <img
                           src={author.avatar}
                           alt={author.name}
-                          width={20}
-                          height={20}
-                          class="rounded-full"
+                          class="rounded-full w-5 h-5"
+                          width="20"
+                          height="20"
                         />
                       ) : (
                         <Image

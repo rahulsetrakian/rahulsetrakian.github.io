@@ -20,6 +20,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   site: 'https://rahulsetrakian.in',
+  redirects: {
+    '/admin': '/admin/index.html',
+  },
   integrations: [
     expressiveCode({
       themes: ['github-light', 'github-dark'],

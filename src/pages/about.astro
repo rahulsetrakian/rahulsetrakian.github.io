@@ -2,12 +2,11 @@
 import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import Link from '@/components/Link.astro'
 import PageHead from '@/components/PageHead.astro'
-import ProjectCard from '@/components/ProjectCard.astro'
 import Layout from '@/layouts/Layout.astro'
-import { getAllProjects } from '@/lib/data-utils'
+
 import { buttonVariants } from '@/components/ui/button'
 
-const projects = await getAllProjects()
+
 ---
 
 <Layout class="max-w-3xl">
@@ -96,6 +95,15 @@ const projects = await getAllProjects()
           This site serves as a growing knowledge log — everything shared here is
           something I’ve tested, practiced, or actively studied.
         </p>
+      </div>
+
+      {/* Credly Badges Grid */}
+      <div class="my-8 grid grid-cols-2 md:grid-cols-4 gap-4 justify-items-center">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6d904561-a859-4e35-a077-419ffd6d6d33" data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5922f724-9782-4e06-982f-4a794db44b46" data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fe751831-6719-49a6-8f2c-4b0bb48d5ba3" data-share-badge-host="https://www.credly.com"></div>
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3e7e48e1-ba0e-4054-ae13-0a4fdd646dd2" data-share-badge-host="https://www.credly.com"></div>
+        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
       </div>
 
 
@@ -256,9 +264,39 @@ const projects = await getAllProjects()
         
       </div>
 
-      <h2 class="mb-4 mt-8 text-2xl font-medium">My Projects Listing</h2>
-      <div class="flex flex-col gap-4">
-        {projects.map((project) => <ProjectCard project={project} />)}
+      <h2 class="mb-4 mt-8 text-2xl font-medium">PGP Public Key</h2>
+      <div class="bg-muted p-4 rounded-md overflow-x-auto text-xs font-mono whitespace-pre text-muted-foreground">
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User ID:	rahul.infosec@proton.me &lt;rahul.infosec@proton.me&gt;
+Comment: Valid from:	6/28/2025 11:46 AM
+Comment: Type:	255-bit EdDSA
+Comment: Usage:	Signing, Encryption, Certifying User IDs
+Comment: Fingerprint:	6B75FB142C45756BDDE6D6B71D3F2451BEAA03FF
+
+
+mDMEaF+IqxYJKwYBBAHaRw8BAQdADoTn82VvBjMqKz95rBxSkDnNfsGo4tXohIJb
+0yEgp2y0MXJhaHVsLmluZm9zZWNAcHJvdG9uLm1lIDxyYWh1bC5pbmZvc2VjQHBy
+b3Rvbi5tZT6I0QQTFgoAgwWCaF+IqwMLCQcJkB0/JFG+qgP/RRQAAAAAABwAIHNh
+bHRAbm90YXRpb25zLm9wZW5wZ3Bqcy5vcmdPmZxB+lkwCo4me7n2nTbWNFF6zrWd
+x6A4UruqQXsF/QMVCggEFgACAQIZAQKbAwIeARYhBGt1+xQsRXVr3ebWtx0/JFG+
+qgP/AAC8sQEA0/8ruEXPE89jXKBz18jX6WtyEg+kUGvE1AfWQavoORUBANOepOGb
+Y5VMBwBKyNq9+A8frzwfODEYzcQXUxagBzELuDgEaF+IqxIKKwYBBAGXVQEFAQEH
+QB+AHxFsZ+PjwXalNvuO+ZbayIh9AGM03rT/okqeh9p4AwEIB4i+BBgWCgBwBYJo
+X4irCZAdPyRRvqoD/0UUAAAAAAAcACBzYWx0QG5vdGF0aW9ucy5vcGVucGdwanMu
+b3JnRw95lt7nm4lLA6LZYECKepEm5wNH20GkebL5ED8zj2cCmwwWIQRrdfsULEV1
+a93m1rcdPyRRvqoD/wAACQcA/0aikxmLIW1y9Di0lpvQEnkj1jd7P7BrHmlTxKnB
+cJ1qAQDdgbdmQ7R5UQqp9zbB6rzKn3xiiDaHYvKiam7zXZ0JDw==
+=lxN6
+-----END PGP PUBLIC KEY BLOCK-----
+      </div>
+      <div class="mt-4">
+        <Link
+          href="/downloadables/rahul-infosec-publickey.asc"
+          class={buttonVariants({ variant: 'outline' })}
+          download="rahul-infosec-publickey.asc"
+        >
+          Download ASC
+        </Link>
       </div>
     </div>
   </section>
