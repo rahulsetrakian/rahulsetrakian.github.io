@@ -2,7 +2,7 @@ backend:
   name: github
   repo: rahulsetrakian/rahulsetrakian.github.io
   # Change this to "main" when merging to production
-  branch: feature/sveltia
+  branch: main
 
 local_backend: true
 
