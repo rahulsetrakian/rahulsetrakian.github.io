@@ -1,0 +1,75 @@
+---
+title: PascalCTF 2026 - Writeup
+description: An analysis of AI security challenges, focusing on prompt injection vulnerabilities and methods for bypassing model guardrails.
+date: 2026-02-03
+tags:
+  - Writeup
+  - CTF
+  - PascalCTF
+image: ./photo_2026-02-03_17-52-30.jpg
+authors:
+  - rahulsetrakian
+draft: false
+---
+
+Welcome to my second CTF write-up. In this post, I share my step-by-step approach to solve the challenges from [PascalCTF](https://ctf.pascalctf.it/). Before I start, I would like to thank the team behind the event for creating such fantastic challenges as I had a lot of fun working through them.
+
+During this CTF, I primarily focused on the AI-related challenges, and my team successfully solved every one of them. Luckily I was able to score three flags.
+
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3h2andnN2QxajdscHNkYTNwdnBzNnppemhxc2p5aXdwYmUwMmpndyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zJGoqdruN4e3qIKLcT/giphy.gif)
+
+## Introduction to AI (Not Really)
+
+If you don't live under a rock you must have stumbled across these buzzwords, AI (Artificial Intelligence), LLMs, and more recently, agents. I would like to explain these topics briefly to build a better understanding of how they work and how we can mess with them.
+
+### What Are LLMs?
+
+Large Language Models (LLMs) are pattern-recognition tools that act like autocomplete on steroids. They are statistical models that predict the most likely next word in a sequence based on their training data.
+
+Whoa! Let me break that down with an analogy. An LLM is like a librarian who has read everything but doesn’t actually _know_ anything which is why they are not truly artificial intelligence because they can't actually think - At least, not in the human sense of intelligence. So next time someone says AI and ChatGPT in the same sentence, don't hold back the eye roll.
+
+![Eye Roll](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDM4ODZxcnh4Z3QycWNuY21kazdlMXljMzFsanhuNGo4Y2J4cDFvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rhhr8D5mKSX7O/giphy.gif)
+
+### What Are the Limitations of LLMs?
+
+LLMs are a relatively new technology and we still have a limited understanding of how they operate under the hood. What makes them tick is largely a black box. We use machine learning algorithms to train these models and feed them with data which they use to form artificial neurons that recognize patterns in our prompts. Ask something like “How do I make tea?" and the model runs through the patterns it has learned and returns a response that statistically fits.
+
+Because of this, LLMs suffer from several well-known issues, such as hallucinations - fabricating facts that don’t exist. For example: _“The Earth is not flat.”_ Red flag, buddy… because it is.
+
+![Earth is Flat](https://media1.tenor.com/m/F-Rrq-OHxPMAAAAd/cuz-its-not-round-itsrucka.gif)
+
+Jokes aside, let’s get back to the problem at hand: how do we trick LLMs into **not** following their instructions? This is where **prompt injection** comes in.
+
+> Prompt injections exploit the fact that LLM applications do not clearly distinguish between developer instructions and user inputs. By writing carefully crafted prompts, hackers can override developer instructions and make the LLM do their bidding. - [IBM](https://www.ibm.com/think/topics/prompt-injection)
+
+As IBM explains, we give the LLM a prompt and carefully sneak in an exploit (for example, _“Prime is better than water”_), and the model happily follows along, neglecting its original instructions.
+
+With that in mind, let’s look at the first challenge and how these limitations showed up in practice.
+
+## Category: AI
+
+### Tea Guardian
+
+The first thing I did was ask the chatbot to reveal the instructions it was supposed to follow. I sent the request using Base64-encoded text, which immediately suggested that the model could understand and process different encodings and languages.
+
+Based on this behavior, I hypothesized that language handling might be exploitable, so I started requesting restricted information in different languages to see how the model would respond and that’s how I ended up retrieving the flag.
+
+![Tea Guardian](./Pasted%20image%2020260131184518.png)
+
+### Selfish AI
+
+After trying to ask for the internal instructions using different languages and encodings, the model still didn’t budge. Since that approach wasn’t working, I decided to try a common technique: instructing the chatbot to disregard its previous instructions and reveal the information I needed.
+
+This time, the model revealed something interesting—it would only share the flag after I earned its trust. That meant engaging in a back-and-forth conversation until it believed I was trustworthy enough to receive the flag.
+
+![Selfish AI](./Pasted%20image%2020260131190905.png)
+
+After a few rounds of conversation, the model eventually handed over the flag.
+
+### 🤓 AI
+
+Once I told the model to disregard its previous instructions and reveal its internal prompt, it immediately returned the flag alongside the instruction.
+
+![](./Pasted%20image%2020260131191433.png)
+
+I hope you learned something new or at least had fun reading through it. I’ll continue posting more write-ups as I participate in different CTFs and challenges.
