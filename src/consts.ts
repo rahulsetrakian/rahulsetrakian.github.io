@@ -32,8 +32,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'GitHub',
   },
   {
-    href: 'https://twitter.com/rahulsetrakian',
-    label: 'Twitter',
+    href: 'https://infosec.exchange/@rahulsetrakian',
+    label: 'Mastodon',
   },
   {
     href: 'mailto:rahul.infosec@proton.me',
@@ -49,7 +49,7 @@ export const ICON_MAP: IconMap = {
   Website: 'lucide:globe',
   GitHub: 'lucide:github',
   LinkedIn: 'lucide:linkedin',
-  Twitter: 'lucide:twitter',
+  Mastodon: 'lucide:share-2',
   Email: 'lucide:mail',
   RSS: 'lucide:rss',
 }

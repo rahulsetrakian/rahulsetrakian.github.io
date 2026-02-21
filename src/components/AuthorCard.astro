@@ -23,7 +23,7 @@ const isAuthorPage = currentPath === `/authors/${author.id}`
 const socialLinks: SocialLink[] = [
   author.data.website && { href: author.data.website, label: 'Website' },
   author.data.github && { href: author.data.github, label: 'GitHub' },
-  author.data.twitter && { href: author.data.twitter, label: 'Twitter' },
+  author.data.mastodon && { href: author.data.mastodon, label: 'Mastodon' },
   author.data.linkedin && { href: author.data.linkedin, label: 'LinkedIn' },
   author.data.mail && { href: `mailto:${author.data.mail}`, label: 'Email' },
 ].filter(Boolean) as SocialLink[]
