@@ -1,0 +1,49 @@
+certifications:
+  - name: 1. CC Certificate
+    image: /certificates/0001.jpg
+    alt: CC Certificate
+    caption: ISC2 — ISC2's Certified in Cybersecurity (CC)
+  - name: 3. Cyber Security Internship Certificate
+    image: /certificates/0002.jpg
+    alt: Cyber Security Internship Certificate
+    caption: Edunet Foundation — Cyber Security Internship
+  - name: 5. U.S. Council Cybersecurity Professional
+    image: /certificates/0003.jpg
+    alt: U.S. Council Certificate
+    caption: U.S. Council — Cybersecurity Professional
+  - name: 4. U.S. Council Cybersecurity Associate
+    image: /certificates/0004.jpg
+    alt: U.S. Council Certificate
+    caption: U.S. Council — Cybersecurity Associate (SOC Analyst)
+  - name: 6. OCI Foundation Associate
+    image: /certificates/0005.jpg
+    alt: Oracle University Certificate
+    caption: Oracle University — OCI Foundation Associate
+  - name: 7. ISO/IEC 27001:2022 Lead Auditor
+    image: /certificates/0006.jpg
+    alt: Mastermind Certificate
+    caption: Mastermind Certificate — ISO/IEC 27001:2022 Lead Auditor
+  - name: 'Linux 100: Foundational'
+    image: /certificates/0007.png
+    alt: TCM Security Certificate
+    caption: 'TCM Security Certificate — Linux 100: Foundational'
+  - name: 'Programming 100: Foundational'
+    image: /certificates/0008.png
+    alt: TCM Security Certificate
+    caption: 'TCM Security Certificate — Programming 100: Foundational'
+  - name: Cybersecurity Fundamentals
+    image: /certificates/0009.jpg
+    alt: IBM SkillsBuild Certificate
+    caption: IBM SkillsBuild Certificate — Cybersecurity Fundamentals
+  - name: Advent of Cyber 2025
+    image: /certificates/0011.jpg
+    alt: Advent of Cyber 2025 Certificate
+    caption: Advent of Cyber 2025 — TryHackMe
+  - name: HeroCTF Certificate of Attendance
+    image: /certificates/0010.jpg
+    alt: HeroCTF Certificate
+    caption: HeroCTF Certificate — Certificate of Attendance
+  - name: Love at First Breach - TryHackMe
+    image: /certificates/THM-E4ESVTM3LT_page-0001.jpg
+    alt: Love at First Breach - TryHackMe
+    caption: Love at First Breach - TryHackMe

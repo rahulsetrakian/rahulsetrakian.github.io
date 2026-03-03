@@ -3,10 +3,18 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro'
 import Link from '@/components/Link.astro'
 import PageHead from '@/components/PageHead.astro'
 import Layout from '@/layouts/Layout.astro'
-
 import { buttonVariants } from '@/components/ui/button'
 
+import yamlData from '../data/certifications.yml'
 
+interface Certificate {
+  name: string;
+  image: string | { src: string };
+  alt: string;
+  caption: string;
+}
+
+const sortedCerts = (yamlData as any).certifications as Certificate[];
 ---
 
 <Layout class="max-w-3xl">
@@ -156,109 +164,19 @@ import { buttonVariants } from '@/components/ui/button'
           <p class="text-foreground font-medium">
             Certifications
           </p>
-          <img
-            src="/certificates/0001.jpg"
-            alt="CC Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               ISC2 — ISC2's Certified in Cybersecurity (CC)
-          </p>
-          <img
-            src="/certificates/0002.jpg"
-            alt="Cyber Security Internship Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               Edunet Foundation — Cyber Security Internship
-          </p>
-          <img
-            src="/certificates/0003.jpg"
-            alt="U.S. Council Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               U.S. Council — Cybersecurity Professional
-          </p>
-            <img
-            src="/certificates/0004.jpg"
-            alt="U.S. Council Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               U.S. Council — Cybersecurity Associate (SOC Analyst)
-          </p>
-            <img
-            src="/certificates/0005.jpg"
-            alt="Oracle University Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               Oracle University — OCI Foundation Associate
-          </p>
-            <img
-            src="/certificates/0006.jpg"
-            alt="Mastermind Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               Mastermind Certificate — ISO/IEC 27001:2022 Lead Auditor
-          </p>
-            <img
-            src="/certificates/0007.png"
-            alt="TCM Security Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               TCM Security Certificate — Linux 100: Foundational
-          </p>
-            <img
-            src="/certificates/0008.png"
-            alt="TCM Security Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               TCM Security Certificate — Programming 100: Foundational
-          </p>
-
-          <img
-            src="/certificates/0009.jpg"
-            alt="IBM SkillsBuild Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               IBM SkillsBuild Certificate — Cybersecurity Fundamentals
-          </p>
-
-          <img
-            src="/certificates/0010.jpg"
-            alt="HeroCTF Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               HeroCTF Certificate — Certificate of Attendance
-          </p>
-
-          <img
-            src="/certificates/0011.jpg"
-            alt="Advent of Cyber 2025 Certificate"
-            class="w-full h-auto max-w-full rounded-md object-contain border"
-            loading="lazy"
-          />
-          <p class="italic text-xs">
-               Advent of Cyber 2025 — TryHackMe
-          </p>
-
+          {sortedCerts.map((cert) => (
+            <>
+              <img
+                src={typeof cert.image === 'string' ? cert.image : cert.image.src}
+                alt={cert.alt}
+                class="w-full h-auto max-w-full rounded-md object-contain border"
+                loading="lazy"
+              />
+              <p class="italic text-xs">
+                 {cert.caption}
+              </p>
+            </>
+          ))}
 
         </div>
         

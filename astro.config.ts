@@ -17,6 +17,7 @@ import { pluginCollapsibleSections } from '@expressive-code/plugin-collapsible-s
 import { pluginLineNumbers } from '@expressive-code/plugin-line-numbers'
 
 import tailwindcss from '@tailwindcss/vite'
+import yaml from '@rollup/plugin-yaml'
 
 export default defineConfig({
   site: 'https://rahulsetrakian.in',
@@ -72,7 +73,7 @@ export default defineConfig({
     icon(),
   ],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), yaml()],
   },
   server: {
     port: 1234,
