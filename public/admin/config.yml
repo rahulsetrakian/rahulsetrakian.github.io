@@ -146,3 +146,8 @@ collections:
               - { label: "Image", name: "image", widget: "image", hint: "Certificate image to upload", media_folder: "/public/certificates", public_folder: "/certificates" }
               - { label: "Alt Text", name: "alt", widget: "string", hint: "Accessibility text for the image" }
               - { label: "Caption", name: "caption", widget: "string", hint: "Description shown below the image" }
+      - label: "Git Auto-Committer"
+        name: "git-committer"
+        file: "src/data/commit.json"
+        fields:
+          - { label: "Commit Message", name: "message", widget: "string", hint: "Enter a commit message. Saving this will automatically commit and push ALL local changes (code and content) to GitHub." }

@@ -18,6 +18,7 @@ import { pluginLineNumbers } from '@expressive-code/plugin-line-numbers'
 
 import tailwindcss from '@tailwindcss/vite'
 import yaml from '@rollup/plugin-yaml'
+import { gitCommitterPlugin } from './src/lib/git-committer'
 
 export default defineConfig({
   site: 'https://rahulsetrakian.in',
@@ -73,7 +74,7 @@ export default defineConfig({
     icon(),
   ],
   vite: {
-    plugins: [tailwindcss(), yaml()],
+    plugins: [tailwindcss(), yaml(), gitCommitterPlugin()],
   },
   server: {
     port: 1234,

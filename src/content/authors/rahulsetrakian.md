@@ -2,7 +2,7 @@
 name: Rahul Setrakian
 pronouns: Cybersecurity Intern
 avatar: rahulsetrakian.png
-bio: An autodidact programmer and hacker.
+bio: An autodidact Programmer, Hacker, and YouTuber.
 website: ''
 mastodon: https://infosec.exchange/@rahulsetrakian
 github: https://github.com/rahulsetrakian
