@@ -2,7 +2,7 @@ certifications:
   - name: 1. CC Certificate
     image: /certificates/0001.jpg
     alt: CC Certificate
-    caption: ISC2 — ISC2's Certified in Cybersecurity (CC)
+    caption: ISC2 — ISC2's Certified in Cybersecurity (CC).
   - name: SEC1 - TryHackMe
     image: /certificates/1000119472.jpg
     alt: SEC1 - TryHackMe
