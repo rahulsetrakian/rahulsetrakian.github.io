@@ -23,7 +23,7 @@
     "@expressive-code/plugin-collapsible-sections": "^0.41.7",
     "@expressive-code/plugin-line-numbers": "^0.41.7",
     "@iconify-json/lucide": "^1.2.26",
-    "@tailwindcss/vite": "^4.0.7",
+    "@tailwindcss/vite": "^4.2.2",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "astro": "^6.1.1",
@@ -42,7 +42,7 @@
     "remark-emoji": "^5.0.1",
     "remark-math": "^6.0.0",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss": "^4.1.7",
+    "tailwindcss": "^4.2.2",
     "typescript": "^5.8.3"
   },
   "devDependencies": {

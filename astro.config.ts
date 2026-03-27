@@ -74,7 +74,7 @@ export default defineConfig({
     icon(),
   ],
   vite: {
-    plugins: [tailwindcss(), yaml(), gitCommitterPlugin()],
+    plugins: [tailwindcss(), yaml() as any, gitCommitterPlugin() as any],
   },
   server: {
     port: 1234,
