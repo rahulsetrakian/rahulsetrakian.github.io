@@ -1,4 +1,8 @@
 certifications:
+  - name: CompTIA Security+
+    image: /certificates/CompTIA Security+ ce certificate_page-0001.jpg
+    alt: CompTIA Security+
+    caption: Security+ - CompTIA
   - name: 1. CC Certificate
     image: /certificates/0001.jpg
     alt: CC Certificate
