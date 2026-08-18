@@ -1,5 +1,5 @@
 {
-  "name": "rahulsetrakian",
+  "name": "purpleshonen",
   "type": "module",
   "version": "1.6.3",
   "private": true,
@@ -16,7 +16,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.2",
     "@astrojs/markdown-remark": "^7.1.0",
-    "@astrojs/mdx": "^5.0.3",
+    "@astrojs/mdx": "^7.0.6",
     "@astrojs/react": "^5.0.2",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
@@ -26,8 +26,8 @@
     "@tailwindcss/vite": "^4.2.2",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
-    "astro": "^6.1.1",
-    "astro-expressive-code": "^0.41.7",
+    "astro": "^7.2.3",
+    "astro-expressive-code": "^0.44.1",
     "astro-icon": "^1.1.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

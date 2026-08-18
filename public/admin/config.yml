@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rahulsetrakian/rahulsetrakian.github.io
+  repo: purpleshonen/purpleshonen.github.io
   # Change this to "main" when merging to production
   branch: main
 
@@ -9,7 +9,7 @@ local_backend: true
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
-site_url: "https://rahulsetrakian.in"
+site_url: "https://purpleshonen.fyi"
 
 collections:
 

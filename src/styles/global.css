@@ -45,25 +45,25 @@
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.97 0 0);
+  --primary: #800080;
+  --primary-foreground: #e6e6fa;
+  --muted: color-mix(in srgb, #e6e6fa 35%, #f9f9fb);
   --muted-foreground: oklch(0.556 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: color-mix(in srgb, #800080 15%, #e2e8f0);
+  --ring: #800080;
 }
 
 [data-theme='dark'] {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.269 0 0);
+  --primary: #e6e6fa;
+  --primary-foreground: #800080;
+  --muted: color-mix(in srgb, #800080 15%, #15151a);
   --muted-foreground: oklch(0.708 0 0);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --ring: oklch(0.556 0 0);
+  --border: color-mix(in srgb, #e6e6fa 10%, #27272a);
+  --ring: #e6e6fa;
 }
 
 @layer base {

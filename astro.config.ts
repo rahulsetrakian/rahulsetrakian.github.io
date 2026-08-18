@@ -21,7 +21,7 @@ import yaml from '@rollup/plugin-yaml'
 import { gitCommitterPlugin } from './src/lib/git-committer'
 
 export default defineConfig({
-  site: 'https://rahulsetrakian.in',
+  site: 'https://purpleshonen.fyi',
   redirects: {
   },
   integrations: [

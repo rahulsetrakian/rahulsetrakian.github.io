@@ -1,6 +1,6 @@
-# Hey, I'm Rahul. 👋
+# Hey, I'm PurpleShonen. 👋
 
-This is the source code for my personal corner of the internet, **[rahulsetrakian.in](https://rahulsetrakian.in)**.
+This is the source code for my personal corner of the internet, **[purpleshonen.fyi](https://purpleshonen.fyi)**.
 
 It's where I dump my brain—notes on cybersecurity, CTF writeups, and whatever tech I'm currently obsessing over. No fancy corporate fluff, just a raw log of what I'm learning.
 
